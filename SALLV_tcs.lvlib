@@ -3,181 +3,149 @@
 	<Property Name="NI.Lib.Icon" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!-R!!!*Q(C=\:4";BN8&amp;)&lt;`F%+\^2M5I3@I?9!O9OA4W-N#%TA0-)*[6U6E9;X3&lt;=_GA4(;7!_AB2&amp;&gt;"M3F'&lt;TX)^2U*T!T&gt;&lt;^\&gt;;WE#TO'JJ"&amp;\OBIZP\`/?&gt;_OD-;K9SPJ3^V_[&amp;"YKTPN^*QL/V-*8L%'S4V_/0DGT&amp;D/ZO.*\.RC:PD]&lt;D0WG8WV^W+M?'UXKRWM&lt;N=N=6@&lt;19S/D,O`$*ZZV/]71^&gt;N^H\GVX0P&lt;`?Z0RO\[_\^XQGX;IL87ZJ1KR8Q`J@^@?-YD=N^7&gt;N/ZSV:W`&lt;%FX&lt;NG^2OT]@`PV.];&gt;^QVB-_G;[&lt;%JQ/?(5N(^FPVE-1^0UT7*[ZT=$E_S8_FS]H!R^P^T\C_H1P/^0FTG`X`O4PH`H4XNG?&lt;Z=U#4(N"GGR&lt;_M^@?-"XW[&gt;P_F`L0`/(`&lt;XD`QNZ=0D=@]P6^]-/F`(N)4Z2=2E9AAH$"F[T;B*`3%HN!4?E)0^%!0^%!0^%"X&gt;%&gt;X&gt;%&gt;X&gt;%=X&gt;%-X&gt;%-X&gt;%-P"\L1B3ZU&gt;C7R?'+B2..%AU1S+%J]*8A30!G?"!^4*8A30!G?"%_#BR1F?")]#:Y%4Y+(-C6Y%DQ*HA20AI&gt;7B336!RW?"!`N&amp;@!%0!&amp;0Q"0QM+1#HA!A7#RI($1"1Y%:8!1]!5`!Q[5#HI!HY!FY!BZM"4Q"4]!4]!1]F*2&gt;C5+4$X2Y;#/(R_&amp;R?"Q?BY@7=HA=(I@(Y8&amp;Y7%Y/D]0D1$A,/MV"E&amp;0E*$A4B]@BY33(R_&amp;R?"Q?BQ?LX#%P/Z.J]I%/D]&amp;D]"A]"I`"1QM:0!;0Q70Q'$SUF=&amp;D]"A]"I`"QV)S?!Q?A]=!-2:F?2H.D%)DS2!-(D\F;&lt;&amp;SF[+17$GE_P#K0J3K$ZPK1[4[=+D?&gt;.7&lt;K8K46$&gt;@&gt;6.6.UNV%V2`H#KU+ITK)KL&amp;/6(8@&amp;]2&amp;]1Z-3&gt;/C#0CE"A2"\HU)S&gt;?8V`L[OJ+&amp;R=8/D]`VXQ_V]H*C9[/DH2Y?+D2;+3$AQ0&gt;D7]Y&gt;O0*X8PJV7D]&gt;0\N_/GP0`G&lt;6T]]?`0S\_?H,`^Y@PL&lt;,]0J#_GLV_15``D:^]8`/@M`\HXCOXJ_6/2_P_`@3Z`#OV&amp;@;(@?\^%`CBTXSQ!!!!!</Property>
 	<Property Name="NI.Lib.SourceVersion" Type="Int">369131520</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
-	<Item Name="DataTypes" Type="Folder">
-		<Item Name="AOCS.ctl" Type="VI" URL="../DataTypes/AOCS.ctl"/>
-		<Item Name="LoopTime_ms.ctl" Type="VI" URL="../DataTypes/LoopTime_ms.ctl"/>
-		<Item Name="Timestamp.ctl" Type="VI" URL="../DataTypes/Timestamp.ctl"/>
-		<Item Name="WEP.ctl" Type="VI" URL="../DataTypes/WEP.ctl"/>
-		<Item Name="ZEMAX.ctl" Type="VI" URL="../DataTypes/ZEMAX.ctl"/>
-		<Item Name="ackcmd.ctl" Type="VI" URL="../DataTypes/ackcmd.ctl"/>
-		<Item Name="command.ctl" Type="VI" URL="../DataTypes/command.ctl"/>
-		<Item Name="command_SetValue.ctl" Type="VI" URL="../DataTypes/command_SetValue.ctl"/>
-		<Item Name="command_abort.ctl" Type="VI" URL="../DataTypes/command_abort.ctl"/>
-		<Item Name="command_disable.ctl" Type="VI" URL="../DataTypes/command_disable.ctl"/>
-		<Item Name="command_enable.ctl" Type="VI" URL="../DataTypes/command_enable.ctl"/>
-		<Item Name="command_enterControl.ctl" Type="VI" URL="../DataTypes/command_enterControl.ctl"/>
-		<Item Name="command_exitControl.ctl" Type="VI" URL="../DataTypes/command_exitControl.ctl"/>
-		<Item Name="command_standby.ctl" Type="VI" URL="../DataTypes/command_standby.ctl"/>
-		<Item Name="command_start.ctl" Type="VI" URL="../DataTypes/command_start.ctl"/>
-		<Item Name="command_stop.ctl" Type="VI" URL="../DataTypes/command_stop.ctl"/>
-		<Item Name="command_wfpCalculate.ctl" Type="VI" URL="../DataTypes/command_wfpCalculate.ctl"/>
-		<Item Name="command_wfpSimulate.ctl" Type="VI" URL="../DataTypes/command_wfpSimulate.ctl"/>
-		<Item Name="kernel_DawdleFilter.ctl" Type="VI" URL="../DataTypes/kernel_DawdleFilter.ctl"/>
-		<Item Name="kernel_FK5Target.ctl" Type="VI" URL="../DataTypes/kernel_FK5Target.ctl"/>
-		<Item Name="kernel_OpticsVt.ctl" Type="VI" URL="../DataTypes/kernel_OpticsVt.ctl"/>
-		<Item Name="kernel_PointingControl.ctl" Type="VI" URL="../DataTypes/kernel_PointingControl.ctl"/>
-		<Item Name="kernel_PointingLog.ctl" Type="VI" URL="../DataTypes/kernel_PointingLog.ctl"/>
-		<Item Name="kernel_PointingModel.ctl" Type="VI" URL="../DataTypes/kernel_PointingModel.ctl"/>
-		<Item Name="kernel_Site.ctl" Type="VI" URL="../DataTypes/kernel_Site.ctl"/>
-		<Item Name="kernel_Target.ctl" Type="VI" URL="../DataTypes/kernel_Target.ctl"/>
-		<Item Name="kernel_TimeKeeper.ctl" Type="VI" URL="../DataTypes/kernel_TimeKeeper.ctl"/>
-		<Item Name="kernel_TrackRefSys.ctl" Type="VI" URL="../DataTypes/kernel_TrackRefSys.ctl"/>
-		<Item Name="kernel_TrackingTarget.ctl" Type="VI" URL="../DataTypes/kernel_TrackingTarget.ctl"/>
-		<Item Name="logevent.ctl" Type="VI" URL="../DataTypes/logevent.ctl"/>
-		<Item Name="logevent_AppliedSettingsMatchStart.ctl" Type="VI" URL="../DataTypes/logevent_AppliedSettingsMatchStart.ctl"/>
-		<Item Name="logevent_DetailedState.ctl" Type="VI" URL="../DataTypes/logevent_DetailedState.ctl"/>
-		<Item Name="logevent_ErrorCode.ctl" Type="VI" URL="../DataTypes/logevent_ErrorCode.ctl"/>
-		<Item Name="logevent_Heartbeat.ctl" Type="VI" URL="../DataTypes/logevent_Heartbeat.ctl"/>
-		<Item Name="logevent_HeartbeatIn.ctl" Type="VI" URL="../DataTypes/logevent_HeartbeatIn.ctl"/>
-		<Item Name="logevent_InternalCommand.ctl" Type="VI" URL="../DataTypes/logevent_InternalCommand.ctl"/>
-		<Item Name="logevent_LoopTimeOutOfRange.ctl" Type="VI" URL="../DataTypes/logevent_LoopTimeOutOfRange.ctl"/>
-		<Item Name="logevent_RejectedCommand.ctl" Type="VI" URL="../DataTypes/logevent_RejectedCommand.ctl"/>
-		<Item Name="logevent_SettingVersions.ctl" Type="VI" URL="../DataTypes/logevent_SettingVersions.ctl"/>
-		<Item Name="logevent_SummaryState.ctl" Type="VI" URL="../DataTypes/logevent_SummaryState.ctl"/>
-		<Item Name="logevent_wfpDataReady.ctl" Type="VI" URL="../DataTypes/logevent_wfpDataReady.ctl"/>
-		<Item Name="logevent_zemaxError.ctl" Type="VI" URL="../DataTypes/logevent_zemaxError.ctl"/>
-	</Item>
 	<Item Name="SALLV_tcs.so" Type="Document" URL="../SALLV_tcs.so"/>
-	<Item Name="tcs_Connect.vi" Type="VI" URL="../VIs/tcs_Connect.vi"/>
-	<Item Name="tcs_Release.vi" Type="VI" URL="../VIs/tcs_Release.vi"/>
-	<Item Name="tcs_acceptCommand_disable.vi" Type="VI" URL="../VIs/tcs_acceptCommand_disable.vi"/>
-	<Item Name="tcs_acceptCommand_enable.vi" Type="VI" URL="../VIs/tcs_acceptCommand_enable.vi"/>
-	<Item Name="tcs_acceptCommand_exitControl.vi" Type="VI" URL="../VIs/tcs_acceptCommand_exitControl.vi"/>
-	<Item Name="tcs_acceptCommand_standby.vi" Type="VI" URL="../VIs/tcs_acceptCommand_standby.vi"/>
-	<Item Name="tcs_acceptCommand_start.vi" Type="VI" URL="../VIs/tcs_acceptCommand_start.vi"/>
-	<Item Name="tcs_acceptCommand_stop.vi" Type="VI" URL="../VIs/tcs_acceptCommand_stop.vi"/>
-	<Item Name="tcs_ackCommand_disable.vi" Type="VI" URL="../VIs/tcs_ackCommand_disable.vi"/>
-	<Item Name="tcs_ackCommand_enable.vi" Type="VI" URL="../VIs/tcs_ackCommand_enable.vi"/>
-	<Item Name="tcs_ackCommand_exitControl.vi" Type="VI" URL="../VIs/tcs_ackCommand_exitControl.vi"/>
-	<Item Name="tcs_ackCommand_standby.vi" Type="VI" URL="../VIs/tcs_ackCommand_standby.vi"/>
-	<Item Name="tcs_ackCommand_start.vi" Type="VI" URL="../VIs/tcs_ackCommand_start.vi"/>
-	<Item Name="tcs_ackCommand_stop.vi" Type="VI" URL="../VIs/tcs_ackCommand_stop.vi"/>
-	<Item Name="tcs_cancelCallback_LoopTimems.vi" Type="VI" URL="../VIs/tcs_cancelCallback_LoopTimems.vi"/>
-	<Item Name="tcs_cancelCallback_Timestamp.vi" Type="VI" URL="../VIs/tcs_cancelCallback_Timestamp.vi"/>
-	<Item Name="tcs_cancelCallback_ackcmd.vi" Type="VI" URL="../VIs/tcs_cancelCallback_ackcmd.vi"/>
-	<Item Name="tcs_cancelCallback_command_disable.vi" Type="VI" URL="../VIs/tcs_cancelCallback_command_disable.vi"/>
-	<Item Name="tcs_cancelCallback_command_disableackcmd.vi" Type="VI" URL="../VIs/tcs_cancelCallback_command_disableackcmd.vi"/>
-	<Item Name="tcs_cancelCallback_command_enable.vi" Type="VI" URL="../VIs/tcs_cancelCallback_command_enable.vi"/>
-	<Item Name="tcs_cancelCallback_command_enableackcmd.vi" Type="VI" URL="../VIs/tcs_cancelCallback_command_enableackcmd.vi"/>
-	<Item Name="tcs_cancelCallback_command_exitControl.vi" Type="VI" URL="../VIs/tcs_cancelCallback_command_exitControl.vi"/>
-	<Item Name="tcs_cancelCallback_command_exitControlackcmd.vi" Type="VI" URL="../VIs/tcs_cancelCallback_command_exitControlackcmd.vi"/>
-	<Item Name="tcs_cancelCallback_command_standby.vi" Type="VI" URL="../VIs/tcs_cancelCallback_command_standby.vi"/>
-	<Item Name="tcs_cancelCallback_command_standbyackcmd.vi" Type="VI" URL="../VIs/tcs_cancelCallback_command_standbyackcmd.vi"/>
-	<Item Name="tcs_cancelCallback_command_start.vi" Type="VI" URL="../VIs/tcs_cancelCallback_command_start.vi"/>
-	<Item Name="tcs_cancelCallback_command_startackcmd.vi" Type="VI" URL="../VIs/tcs_cancelCallback_command_startackcmd.vi"/>
-	<Item Name="tcs_cancelCallback_command_stop.vi" Type="VI" URL="../VIs/tcs_cancelCallback_command_stop.vi"/>
-	<Item Name="tcs_cancelCallback_command_stopackcmd.vi" Type="VI" URL="../VIs/tcs_cancelCallback_command_stopackcmd.vi"/>
-	<Item Name="tcs_cancelCallback_logEvent_AppliedSettingsMatchStart.vi" Type="VI" URL="../VIs/tcs_cancelCallback_logEvent_AppliedSettingsMatchStart.vi"/>
-	<Item Name="tcs_cancelCallback_logEvent_DetailedState.vi" Type="VI" URL="../VIs/tcs_cancelCallback_logEvent_DetailedState.vi"/>
-	<Item Name="tcs_cancelCallback_logEvent_ErrorCode.vi" Type="VI" URL="../VIs/tcs_cancelCallback_logEvent_ErrorCode.vi"/>
-	<Item Name="tcs_cancelCallback_logEvent_Heartbeat.vi" Type="VI" URL="../VIs/tcs_cancelCallback_logEvent_Heartbeat.vi"/>
-	<Item Name="tcs_cancelCallback_logEvent_HeartbeatIn.vi" Type="VI" URL="../VIs/tcs_cancelCallback_logEvent_HeartbeatIn.vi"/>
-	<Item Name="tcs_cancelCallback_logEvent_InternalCommand.vi" Type="VI" URL="../VIs/tcs_cancelCallback_logEvent_InternalCommand.vi"/>
-	<Item Name="tcs_cancelCallback_logEvent_LoopTimeOutOfRange.vi" Type="VI" URL="../VIs/tcs_cancelCallback_logEvent_LoopTimeOutOfRange.vi"/>
-	<Item Name="tcs_cancelCallback_logEvent_RejectedCommand.vi" Type="VI" URL="../VIs/tcs_cancelCallback_logEvent_RejectedCommand.vi"/>
-	<Item Name="tcs_cancelCallback_logEvent_SettingVersions.vi" Type="VI" URL="../VIs/tcs_cancelCallback_logEvent_SettingVersions.vi"/>
-	<Item Name="tcs_cancelCallback_logEvent_SummaryState.vi" Type="VI" URL="../VIs/tcs_cancelCallback_logEvent_SummaryState.vi"/>
-	<Item Name="tcs_checkCallbacks.vi" Type="VI" URL="../VIs/tcs_checkCallbacks.vi"/>
-	<Item Name="tcs_getEvent_AppliedSettingsMatchStart.vi" Type="VI" URL="../VIs/tcs_getEvent_AppliedSettingsMatchStart.vi"/>
-	<Item Name="tcs_getEvent_DetailedState.vi" Type="VI" URL="../VIs/tcs_getEvent_DetailedState.vi"/>
-	<Item Name="tcs_getEvent_ErrorCode.vi" Type="VI" URL="../VIs/tcs_getEvent_ErrorCode.vi"/>
-	<Item Name="tcs_getEvent_Heartbeat.vi" Type="VI" URL="../VIs/tcs_getEvent_Heartbeat.vi"/>
-	<Item Name="tcs_getEvent_HeartbeatIn.vi" Type="VI" URL="../VIs/tcs_getEvent_HeartbeatIn.vi"/>
-	<Item Name="tcs_getEvent_InternalCommand.vi" Type="VI" URL="../VIs/tcs_getEvent_InternalCommand.vi"/>
-	<Item Name="tcs_getEvent_LoopTimeOutOfRange.vi" Type="VI" URL="../VIs/tcs_getEvent_LoopTimeOutOfRange.vi"/>
-	<Item Name="tcs_getEvent_RejectedCommand.vi" Type="VI" URL="../VIs/tcs_getEvent_RejectedCommand.vi"/>
-	<Item Name="tcs_getEvent_SettingVersions.vi" Type="VI" URL="../VIs/tcs_getEvent_SettingVersions.vi"/>
-	<Item Name="tcs_getEvent_SummaryState.vi" Type="VI" URL="../VIs/tcs_getEvent_SummaryState.vi"/>
-	<Item Name="tcs_getNextSample_AOCS.vi" Type="VI" URL="../VIs/tcs_getNextSample_AOCS.vi"/>
-	<Item Name="tcs_getNextSample_LoopTimems.vi" Type="VI" URL="../VIs/tcs_getNextSample_LoopTimems.vi"/>
-	<Item Name="tcs_getNextSample_Timestamp.vi" Type="VI" URL="../VIs/tcs_getNextSample_Timestamp.vi"/>
-	<Item Name="tcs_getResponse_disable.vi" Type="VI" URL="../VIs/tcs_getResponse_disable.vi"/>
-	<Item Name="tcs_getResponse_enable.vi" Type="VI" URL="../VIs/tcs_getResponse_enable.vi"/>
-	<Item Name="tcs_getResponse_exitControl.vi" Type="VI" URL="../VIs/tcs_getResponse_exitControl.vi"/>
-	<Item Name="tcs_getResponse_standby.vi" Type="VI" URL="../VIs/tcs_getResponse_standby.vi"/>
-	<Item Name="tcs_getResponse_start.vi" Type="VI" URL="../VIs/tcs_getResponse_start.vi"/>
-	<Item Name="tcs_getResponse_stop.vi" Type="VI" URL="../VIs/tcs_getResponse_stop.vi"/>
-	<Item Name="tcs_getSample_LoopTimems.vi" Type="VI" URL="../VIs/tcs_getSample_LoopTimems.vi"/>
-	<Item Name="tcs_getSample_Timestamp.vi" Type="VI" URL="../VIs/tcs_getSample_Timestamp.vi"/>
-	<Item Name="tcs_issueCommand_disable.vi" Type="VI" URL="../VIs/tcs_issueCommand_disable.vi"/>
-	<Item Name="tcs_issueCommand_enable.vi" Type="VI" URL="../VIs/tcs_issueCommand_enable.vi"/>
-	<Item Name="tcs_issueCommand_exitControl.vi" Type="VI" URL="../VIs/tcs_issueCommand_exitControl.vi"/>
-	<Item Name="tcs_issueCommand_standby.vi" Type="VI" URL="../VIs/tcs_issueCommand_standby.vi"/>
-	<Item Name="tcs_issueCommand_start.vi" Type="VI" URL="../VIs/tcs_issueCommand_start.vi"/>
-	<Item Name="tcs_issueCommand_stop.vi" Type="VI" URL="../VIs/tcs_issueCommand_stop.vi"/>
-	<Item Name="tcs_logEvent_AppliedSettingsMatchStart.vi" Type="VI" URL="../VIs/tcs_logEvent_AppliedSettingsMatchStart.vi"/>
-	<Item Name="tcs_logEvent_DetailedState.vi" Type="VI" URL="../VIs/tcs_logEvent_DetailedState.vi"/>
-	<Item Name="tcs_logEvent_ErrorCode.vi" Type="VI" URL="../VIs/tcs_logEvent_ErrorCode.vi"/>
-	<Item Name="tcs_logEvent_Heartbeat.vi" Type="VI" URL="../VIs/tcs_logEvent_Heartbeat.vi"/>
-	<Item Name="tcs_logEvent_HeartbeatIn.vi" Type="VI" URL="../VIs/tcs_logEvent_HeartbeatIn.vi"/>
-	<Item Name="tcs_logEvent_InternalCommand.vi" Type="VI" URL="../VIs/tcs_logEvent_InternalCommand.vi"/>
-	<Item Name="tcs_logEvent_LoopTimeOutOfRange.vi" Type="VI" URL="../VIs/tcs_logEvent_LoopTimeOutOfRange.vi"/>
-	<Item Name="tcs_logEvent_RejectedCommand.vi" Type="VI" URL="../VIs/tcs_logEvent_RejectedCommand.vi"/>
-	<Item Name="tcs_logEvent_SettingVersions.vi" Type="VI" URL="../VIs/tcs_logEvent_SettingVersions.vi"/>
-	<Item Name="tcs_logEvent_SummaryState.vi" Type="VI" URL="../VIs/tcs_logEvent_SummaryState.vi"/>
-	<Item Name="tcs_putSample_AOCS.vi" Type="VI" URL="../VIs/tcs_putSample_AOCS.vi"/>
-	<Item Name="tcs_putSample_LoopTimems.vi" Type="VI" URL="../VIs/tcs_putSample_LoopTimems.vi"/>
-	<Item Name="tcs_putSample_Timestamp.vi" Type="VI" URL="../VIs/tcs_putSample_Timestamp.vi"/>
-	<Item Name="tcs_registerCallback_LoopTimems.vi" Type="VI" URL="../VIs/tcs_registerCallback_LoopTimems.vi"/>
-	<Item Name="tcs_registerCallback_Timestamp.vi" Type="VI" URL="../VIs/tcs_registerCallback_Timestamp.vi"/>
-	<Item Name="tcs_registerCallback_ackcmd.vi" Type="VI" URL="../VIs/tcs_registerCallback_ackcmd.vi"/>
-	<Item Name="tcs_registerCallback_command_disable.vi" Type="VI" URL="../VIs/tcs_registerCallback_command_disable.vi"/>
-	<Item Name="tcs_registerCallback_command_disableackcmd.vi" Type="VI" URL="../VIs/tcs_registerCallback_command_disableackcmd.vi"/>
-	<Item Name="tcs_registerCallback_command_enable.vi" Type="VI" URL="../VIs/tcs_registerCallback_command_enable.vi"/>
-	<Item Name="tcs_registerCallback_command_enableackcmd.vi" Type="VI" URL="../VIs/tcs_registerCallback_command_enableackcmd.vi"/>
-	<Item Name="tcs_registerCallback_command_exitControl.vi" Type="VI" URL="../VIs/tcs_registerCallback_command_exitControl.vi"/>
-	<Item Name="tcs_registerCallback_command_exitControlackcmd.vi" Type="VI" URL="../VIs/tcs_registerCallback_command_exitControlackcmd.vi"/>
-	<Item Name="tcs_registerCallback_command_standby.vi" Type="VI" URL="../VIs/tcs_registerCallback_command_standby.vi"/>
-	<Item Name="tcs_registerCallback_command_standbyackcmd.vi" Type="VI" URL="../VIs/tcs_registerCallback_command_standbyackcmd.vi"/>
-	<Item Name="tcs_registerCallback_command_start.vi" Type="VI" URL="../VIs/tcs_registerCallback_command_start.vi"/>
-	<Item Name="tcs_registerCallback_command_startackcmd.vi" Type="VI" URL="../VIs/tcs_registerCallback_command_startackcmd.vi"/>
-	<Item Name="tcs_registerCallback_command_stop.vi" Type="VI" URL="../VIs/tcs_registerCallback_command_stop.vi"/>
-	<Item Name="tcs_registerCallback_command_stopackcmd.vi" Type="VI" URL="../VIs/tcs_registerCallback_command_stopackcmd.vi"/>
-	<Item Name="tcs_registerCallback_logEvent_.vi" Type="VI" URL="../VIs/tcs_registerCallback_logEvent_.vi"/>
-	<Item Name="tcs_registerCallback_logEvent_AppliedSettingsMatchStart.vi" Type="VI" URL="../VIs/tcs_registerCallback_logEvent_AppliedSettingsMatchStart.vi"/>
-	<Item Name="tcs_registerCallback_logEvent_DetailedState.vi" Type="VI" URL="../VIs/tcs_registerCallback_logEvent_DetailedState.vi"/>
-	<Item Name="tcs_registerCallback_logEvent_ErrorCode.vi" Type="VI" URL="../VIs/tcs_registerCallback_logEvent_ErrorCode.vi"/>
-	<Item Name="tcs_registerCallback_logEvent_Heartbeat.vi" Type="VI" URL="../VIs/tcs_registerCallback_logEvent_Heartbeat.vi"/>
-	<Item Name="tcs_registerCallback_logEvent_HeartbeatIn.vi" Type="VI" URL="../VIs/tcs_registerCallback_logEvent_HeartbeatIn.vi"/>
-	<Item Name="tcs_registerCallback_logEvent_InternalCommand.vi" Type="VI" URL="../VIs/tcs_registerCallback_logEvent_InternalCommand.vi"/>
-	<Item Name="tcs_registerCallback_logEvent_LoopTimeOutOfRange.vi" Type="VI" URL="../VIs/tcs_registerCallback_logEvent_LoopTimeOutOfRange.vi"/>
-	<Item Name="tcs_registerCallback_logEvent_RejectedCommand.vi" Type="VI" URL="../VIs/tcs_registerCallback_logEvent_RejectedCommand.vi"/>
-	<Item Name="tcs_registerCallback_logEvent_SettingVersions.vi" Type="VI" URL="../VIs/tcs_registerCallback_logEvent_SettingVersions.vi"/>
-	<Item Name="tcs_registerCallback_logEvent_SummaryState.vi" Type="VI" URL="../VIs/tcs_registerCallback_logEvent_SummaryState.vi"/>
-	<Item Name="tcs_salEvent_AppliedSettingsMatchStart.vi" Type="VI" URL="../VIs/tcs_salEvent_AppliedSettingsMatchStart.vi"/>
-	<Item Name="tcs_salEvent_DetailedState.vi" Type="VI" URL="../VIs/tcs_salEvent_DetailedState.vi"/>
-	<Item Name="tcs_salEvent_ErrorCode.vi" Type="VI" URL="../VIs/tcs_salEvent_ErrorCode.vi"/>
-	<Item Name="tcs_salEvent_Heartbeat.vi" Type="VI" URL="../VIs/tcs_salEvent_Heartbeat.vi"/>
-	<Item Name="tcs_salEvent_HeartbeatIn.vi" Type="VI" URL="../VIs/tcs_salEvent_HeartbeatIn.vi"/>
-	<Item Name="tcs_salEvent_InternalCommand.vi" Type="VI" URL="../VIs/tcs_salEvent_InternalCommand.vi"/>
-	<Item Name="tcs_salEvent_LoopTimeOutOfRange.vi" Type="VI" URL="../VIs/tcs_salEvent_LoopTimeOutOfRange.vi"/>
-	<Item Name="tcs_salEvent_RejectedCommand.vi" Type="VI" URL="../VIs/tcs_salEvent_RejectedCommand.vi"/>
-	<Item Name="tcs_salEvent_SettingVersions.vi" Type="VI" URL="../VIs/tcs_salEvent_SettingVersions.vi"/>
-	<Item Name="tcs_salEvent_SummaryState.vi" Type="VI" URL="../VIs/tcs_salEvent_SummaryState.vi"/>
-	<Item Name="tcs_salProcessor_disable.vi" Type="VI" URL="../VIs/tcs_salProcessor_disable.vi"/>
-	<Item Name="tcs_salProcessor_enable.vi" Type="VI" URL="../VIs/tcs_salProcessor_enable.vi"/>
-	<Item Name="tcs_salProcessor_enterControl.vi" Type="VI" URL="../VIs/tcs_salProcessor_enterControl.vi"/>
-	<Item Name="tcs_salProcessor_exitControl.vi" Type="VI" URL="../VIs/tcs_salProcessor_exitControl.vi"/>
-	<Item Name="tcs_salProcessor_standby.vi" Type="VI" URL="../VIs/tcs_salProcessor_standby.vi"/>
-	<Item Name="tcs_salProcessor_start.vi" Type="VI" URL="../VIs/tcs_salProcessor_start.vi"/>
-	<Item Name="tcs_salProcessor_stop.vi" Type="VI" URL="../VIs/tcs_salProcessor_stop.vi"/>
-	<Item Name="tcs_salTelemetrySub_LoopTimems.vi" Type="VI" URL="../VIs/tcs_salTelemetrySub_LoopTimems.vi"/>
-	<Item Name="tcs_salTelemetrySub_Timestamp.vi" Type="VI" URL="../VIs/tcs_salTelemetrySub_Timestamp.vi"/>
-	<Item Name="tcs_waitForCompletion_disable.vi" Type="VI" URL="../VIs/tcs_waitForCompletion_disable.vi"/>
-	<Item Name="tcs_waitForCompletion_enable.vi" Type="VI" URL="../VIs/tcs_waitForCompletion_enable.vi"/>
-	<Item Name="tcs_waitForCompletion_exitControl.vi" Type="VI" URL="../VIs/tcs_waitForCompletion_exitControl.vi"/>
-	<Item Name="tcs_waitForCompletion_standby.vi" Type="VI" URL="../VIs/tcs_waitForCompletion_standby.vi"/>
-	<Item Name="tcs_waitForCompletion_start.vi" Type="VI" URL="../VIs/tcs_waitForCompletion_start.vi"/>
-	<Item Name="tcs_waitForCompletion_stop.vi" Type="VI" URL="../VIs/tcs_waitForCompletion_stop.vi"/>
-	<Item Name="tcsshminitFlags.vi" Type="VI" URL="../VIs/tcsshminitFlags.vi"/>
+	<Item Name="tcs sal Shm Connect.vi" Type="VI" URL="../VIs/tcs sal Shm Connect.vi"/>
+	<Item Name="tcs sal Shm Release.vi" Type="VI" URL="../VIs/tcs sal Shm Release.vi"/>
+	<Item Name="tcs shm accept Command disable LV.vi" Type="VI" URL="../VIs/tcs shm accept Command disable LV.vi"/>
+	<Item Name="tcs shm accept Command enable LV.vi" Type="VI" URL="../VIs/tcs shm accept Command enable LV.vi"/>
+	<Item Name="tcs shm accept Command exit Control LV.vi" Type="VI" URL="../VIs/tcs shm accept Command exit Control LV.vi"/>
+	<Item Name="tcs shm accept Command inject Error LV.vi" Type="VI" URL="../VIs/tcs shm accept Command inject Error LV.vi"/>
+	<Item Name="tcs shm accept Command standby LV.vi" Type="VI" URL="../VIs/tcs shm accept Command standby LV.vi"/>
+	<Item Name="tcs shm accept Command start LV.vi" Type="VI" URL="../VIs/tcs shm accept Command start LV.vi"/>
+	<Item Name="tcs shm accept Command stop LV.vi" Type="VI" URL="../VIs/tcs shm accept Command stop LV.vi"/>
+	<Item Name="tcs shm ack Command disable LV.vi" Type="VI" URL="../VIs/tcs shm ack Command disable LV.vi"/>
+	<Item Name="tcs shm ack Command enable LV.vi" Type="VI" URL="../VIs/tcs shm ack Command enable LV.vi"/>
+	<Item Name="tcs shm ack Command exit Control LV.vi" Type="VI" URL="../VIs/tcs shm ack Command exit Control LV.vi"/>
+	<Item Name="tcs shm ack Command inject Error LV.vi" Type="VI" URL="../VIs/tcs shm ack Command inject Error LV.vi"/>
+	<Item Name="tcs shm ack Command standby LV.vi" Type="VI" URL="../VIs/tcs shm ack Command standby LV.vi"/>
+	<Item Name="tcs shm ack Command start LV.vi" Type="VI" URL="../VIs/tcs shm ack Command start LV.vi"/>
+	<Item Name="tcs shm ack Command stop LV.vi" Type="VI" URL="../VIs/tcs shm ack Command stop LV.vi"/>
+	<Item Name="tcs shm cancel Callback Loop Time ms LV.vi" Type="VI" URL="../VIs/tcs shm cancel Callback Loop Time ms LV.vi"/>
+	<Item Name="tcs shm cancel Callback Timestamp LV.vi" Type="VI" URL="../VIs/tcs shm cancel Callback Timestamp LV.vi"/>
+	<Item Name="tcs shm cancel Callback ackcmd LV.vi" Type="VI" URL="../VIs/tcs shm cancel Callback ackcmd LV.vi"/>
+	<Item Name="tcs shm cancel Callback command LV.vi" Type="VI" URL="../VIs/tcs shm cancel Callback command LV.vi"/>
+	<Item Name="tcs shm cancel Callback command disable LV.vi" Type="VI" URL="../VIs/tcs shm cancel Callback command disable LV.vi"/>
+	<Item Name="tcs shm cancel Callback command disable ackcmd LV.vi" Type="VI" URL="../VIs/tcs shm cancel Callback command disable ackcmd LV.vi"/>
+	<Item Name="tcs shm cancel Callback command enable LV.vi" Type="VI" URL="../VIs/tcs shm cancel Callback command enable LV.vi"/>
+	<Item Name="tcs shm cancel Callback command enable ackcmd LV.vi" Type="VI" URL="../VIs/tcs shm cancel Callback command enable ackcmd LV.vi"/>
+	<Item Name="tcs shm cancel Callback command exit Control LV.vi" Type="VI" URL="../VIs/tcs shm cancel Callback command exit Control LV.vi"/>
+	<Item Name="tcs shm cancel Callback command exit Control ackcmd LV.vi" Type="VI" URL="../VIs/tcs shm cancel Callback command exit Control ackcmd LV.vi"/>
+	<Item Name="tcs shm cancel Callback command inject Error LV.vi" Type="VI" URL="../VIs/tcs shm cancel Callback command inject Error LV.vi"/>
+	<Item Name="tcs shm cancel Callback command inject Error ackcmd LV.vi" Type="VI" URL="../VIs/tcs shm cancel Callback command inject Error ackcmd LV.vi"/>
+	<Item Name="tcs shm cancel Callback command standby LV.vi" Type="VI" URL="../VIs/tcs shm cancel Callback command standby LV.vi"/>
+	<Item Name="tcs shm cancel Callback command standby ackcmd LV.vi" Type="VI" URL="../VIs/tcs shm cancel Callback command standby ackcmd LV.vi"/>
+	<Item Name="tcs shm cancel Callback command start LV.vi" Type="VI" URL="../VIs/tcs shm cancel Callback command start LV.vi"/>
+	<Item Name="tcs shm cancel Callback command start ackcmd LV.vi" Type="VI" URL="../VIs/tcs shm cancel Callback command start ackcmd LV.vi"/>
+	<Item Name="tcs shm cancel Callback command stop LV.vi" Type="VI" URL="../VIs/tcs shm cancel Callback command stop LV.vi"/>
+	<Item Name="tcs shm cancel Callback command stop ackcmd LV.vi" Type="VI" URL="../VIs/tcs shm cancel Callback command stop ackcmd LV.vi"/>
+	<Item Name="tcs shm cancel Callback logevent Applied Settings Match Start LV.vi" Type="VI" URL="../VIs/tcs shm cancel Callback logevent Applied Settings Match Start LV.vi"/>
+	<Item Name="tcs shm cancel Callback logevent Detailed State LV.vi" Type="VI" URL="../VIs/tcs shm cancel Callback logevent Detailed State LV.vi"/>
+	<Item Name="tcs shm cancel Callback logevent Error Code LV.vi" Type="VI" URL="../VIs/tcs shm cancel Callback logevent Error Code LV.vi"/>
+	<Item Name="tcs shm cancel Callback logevent Heartbeat In LV.vi" Type="VI" URL="../VIs/tcs shm cancel Callback logevent Heartbeat In LV.vi"/>
+	<Item Name="tcs shm cancel Callback logevent Heartbeat LV.vi" Type="VI" URL="../VIs/tcs shm cancel Callback logevent Heartbeat LV.vi"/>
+	<Item Name="tcs shm cancel Callback logevent Internal Command LV.vi" Type="VI" URL="../VIs/tcs shm cancel Callback logevent Internal Command LV.vi"/>
+	<Item Name="tcs shm cancel Callback logevent LV.vi" Type="VI" URL="../VIs/tcs shm cancel Callback logevent LV.vi"/>
+	<Item Name="tcs shm cancel Callback logevent Loop Time Out Of Range LV.vi" Type="VI" URL="../VIs/tcs shm cancel Callback logevent Loop Time Out Of Range LV.vi"/>
+	<Item Name="tcs shm cancel Callback logevent Rejected Command LV.vi" Type="VI" URL="../VIs/tcs shm cancel Callback logevent Rejected Command LV.vi"/>
+	<Item Name="tcs shm cancel Callback logevent Setting Versions LV.vi" Type="VI" URL="../VIs/tcs shm cancel Callback logevent Setting Versions LV.vi"/>
+	<Item Name="tcs shm cancel Callback logevent Summary State LV.vi" Type="VI" URL="../VIs/tcs shm cancel Callback logevent Summary State LV.vi"/>
+	<Item Name="tcs shm check Callbacks LV.vi" Type="VI" URL="../VIs/tcs shm check Callbacks LV.vi"/>
+	<Item Name="tcs shm get Event Applied Settings Match Start LV.vi" Type="VI" URL="../VIs/tcs shm get Event Applied Settings Match Start LV.vi"/>
+	<Item Name="tcs shm get Event Detailed State LV.vi" Type="VI" URL="../VIs/tcs shm get Event Detailed State LV.vi"/>
+	<Item Name="tcs shm get Event Error Code LV.vi" Type="VI" URL="../VIs/tcs shm get Event Error Code LV.vi"/>
+	<Item Name="tcs shm get Event Heartbeat In LV.vi" Type="VI" URL="../VIs/tcs shm get Event Heartbeat In LV.vi"/>
+	<Item Name="tcs shm get Event Heartbeat LV.vi" Type="VI" URL="../VIs/tcs shm get Event Heartbeat LV.vi"/>
+	<Item Name="tcs shm get Event Internal Command LV.vi" Type="VI" URL="../VIs/tcs shm get Event Internal Command LV.vi"/>
+	<Item Name="tcs shm get Event Loop Time Out Of Range LV.vi" Type="VI" URL="../VIs/tcs shm get Event Loop Time Out Of Range LV.vi"/>
+	<Item Name="tcs shm get Event Rejected Command LV.vi" Type="VI" URL="../VIs/tcs shm get Event Rejected Command LV.vi"/>
+	<Item Name="tcs shm get Event Setting Versions LV.vi" Type="VI" URL="../VIs/tcs shm get Event Setting Versions LV.vi"/>
+	<Item Name="tcs shm get Event Summary State LV.vi" Type="VI" URL="../VIs/tcs shm get Event Summary State LV.vi"/>
+	<Item Name="tcs shm get Next Sample Loop Time ms LV.vi" Type="VI" URL="../VIs/tcs shm get Next Sample Loop Time ms LV.vi"/>
+	<Item Name="tcs shm get Next Sample Timestamp LV.vi" Type="VI" URL="../VIs/tcs shm get Next Sample Timestamp LV.vi"/>
+	<Item Name="tcs shm get Response disable LV.vi" Type="VI" URL="../VIs/tcs shm get Response disable LV.vi"/>
+	<Item Name="tcs shm get Response enable LV.vi" Type="VI" URL="../VIs/tcs shm get Response enable LV.vi"/>
+	<Item Name="tcs shm get Response exit Control LV.vi" Type="VI" URL="../VIs/tcs shm get Response exit Control LV.vi"/>
+	<Item Name="tcs shm get Response inject Error LV.vi" Type="VI" URL="../VIs/tcs shm get Response inject Error LV.vi"/>
+	<Item Name="tcs shm get Response standby LV.vi" Type="VI" URL="../VIs/tcs shm get Response standby LV.vi"/>
+	<Item Name="tcs shm get Response start LV.vi" Type="VI" URL="../VIs/tcs shm get Response start LV.vi"/>
+	<Item Name="tcs shm get Response stop LV.vi" Type="VI" URL="../VIs/tcs shm get Response stop LV.vi"/>
+	<Item Name="tcs shm get Sample Loop Time ms LV.vi" Type="VI" URL="../VIs/tcs shm get Sample Loop Time ms LV.vi"/>
+	<Item Name="tcs shm get Sample Timestamp LV.vi" Type="VI" URL="../VIs/tcs shm get Sample Timestamp LV.vi"/>
+	<Item Name="tcs shm init Flags.vi" Type="VI" URL="../VIs/tcs shm init Flags.vi"/>
+	<Item Name="tcs shm issue Command Set Value LV.vi" Type="VI" URL="../VIs/tcs shm issue Command Set Value LV.vi"/>
+	<Item Name="tcs shm issue Command disable LV.vi" Type="VI" URL="../VIs/tcs shm issue Command disable LV.vi"/>
+	<Item Name="tcs shm issue Command enable LV.vi" Type="VI" URL="../VIs/tcs shm issue Command enable LV.vi"/>
+	<Item Name="tcs shm issue Command exit Control LV.vi" Type="VI" URL="../VIs/tcs shm issue Command exit Control LV.vi"/>
+	<Item Name="tcs shm issue Command inject Error LV.vi" Type="VI" URL="../VIs/tcs shm issue Command inject Error LV.vi"/>
+	<Item Name="tcs shm issue Command standby LV.vi" Type="VI" URL="../VIs/tcs shm issue Command standby LV.vi"/>
+	<Item Name="tcs shm issue Command start LV.vi" Type="VI" URL="../VIs/tcs shm issue Command start LV.vi"/>
+	<Item Name="tcs shm issue Command stop LV.vi" Type="VI" URL="../VIs/tcs shm issue Command stop LV.vi"/>
+	<Item Name="tcs shm log Event Applied Settings Match Start LV.vi" Type="VI" URL="../VIs/tcs shm log Event Applied Settings Match Start LV.vi"/>
+	<Item Name="tcs shm log Event Detailed State LV.vi" Type="VI" URL="../VIs/tcs shm log Event Detailed State LV.vi"/>
+	<Item Name="tcs shm log Event Error Code LV.vi" Type="VI" URL="../VIs/tcs shm log Event Error Code LV.vi"/>
+	<Item Name="tcs shm log Event Heartbeat In LV.vi" Type="VI" URL="../VIs/tcs shm log Event Heartbeat In LV.vi"/>
+	<Item Name="tcs shm log Event Heartbeat LV.vi" Type="VI" URL="../VIs/tcs shm log Event Heartbeat LV.vi"/>
+	<Item Name="tcs shm log Event Internal Command LV.vi" Type="VI" URL="../VIs/tcs shm log Event Internal Command LV.vi"/>
+	<Item Name="tcs shm log Event Loop Time Out Of Range LV.vi" Type="VI" URL="../VIs/tcs shm log Event Loop Time Out Of Range LV.vi"/>
+	<Item Name="tcs shm log Event Rejected Command LV.vi" Type="VI" URL="../VIs/tcs shm log Event Rejected Command LV.vi"/>
+	<Item Name="tcs shm log Event Setting Versions LV.vi" Type="VI" URL="../VIs/tcs shm log Event Setting Versions LV.vi"/>
+	<Item Name="tcs shm log Event Summary State LV.vi" Type="VI" URL="../VIs/tcs shm log Event Summary State LV.vi"/>
+	<Item Name="tcs shm put Sample Loop Time ms LV.vi" Type="VI" URL="../VIs/tcs shm put Sample Loop Time ms LV.vi"/>
+	<Item Name="tcs shm put Sample Timestamp LV.vi" Type="VI" URL="../VIs/tcs shm put Sample Timestamp LV.vi"/>
+	<Item Name="tcs shm register Callback Loop Time ms LV.vi" Type="VI" URL="../VIs/tcs shm register Callback Loop Time ms LV.vi"/>
+	<Item Name="tcs shm register Callback Timestamp LV.vi" Type="VI" URL="../VIs/tcs shm register Callback Timestamp LV.vi"/>
+	<Item Name="tcs shm register Callback ackcmd LV.vi" Type="VI" URL="../VIs/tcs shm register Callback ackcmd LV.vi"/>
+	<Item Name="tcs shm register Callback command LV.vi" Type="VI" URL="../VIs/tcs shm register Callback command LV.vi"/>
+	<Item Name="tcs shm register Callback command disable LV.vi" Type="VI" URL="../VIs/tcs shm register Callback command disable LV.vi"/>
+	<Item Name="tcs shm register Callback command disable ackcmd LV.vi" Type="VI" URL="../VIs/tcs shm register Callback command disable ackcmd LV.vi"/>
+	<Item Name="tcs shm register Callback command enable LV.vi" Type="VI" URL="../VIs/tcs shm register Callback command enable LV.vi"/>
+	<Item Name="tcs shm register Callback command enable ackcmd LV.vi" Type="VI" URL="../VIs/tcs shm register Callback command enable ackcmd LV.vi"/>
+	<Item Name="tcs shm register Callback command exit Control LV.vi" Type="VI" URL="../VIs/tcs shm register Callback command exit Control LV.vi"/>
+	<Item Name="tcs shm register Callback command exit Control ackcmd LV.vi" Type="VI" URL="../VIs/tcs shm register Callback command exit Control ackcmd LV.vi"/>
+	<Item Name="tcs shm register Callback command inject Error LV.vi" Type="VI" URL="../VIs/tcs shm register Callback command inject Error LV.vi"/>
+	<Item Name="tcs shm register Callback command inject Error ackcmd LV.vi" Type="VI" URL="../VIs/tcs shm register Callback command inject Error ackcmd LV.vi"/>
+	<Item Name="tcs shm register Callback command standby LV.vi" Type="VI" URL="../VIs/tcs shm register Callback command standby LV.vi"/>
+	<Item Name="tcs shm register Callback command standby ackcmd LV.vi" Type="VI" URL="../VIs/tcs shm register Callback command standby ackcmd LV.vi"/>
+	<Item Name="tcs shm register Callback command start LV.vi" Type="VI" URL="../VIs/tcs shm register Callback command start LV.vi"/>
+	<Item Name="tcs shm register Callback command start ackcmd LV.vi" Type="VI" URL="../VIs/tcs shm register Callback command start ackcmd LV.vi"/>
+	<Item Name="tcs shm register Callback command stop LV.vi" Type="VI" URL="../VIs/tcs shm register Callback command stop LV.vi"/>
+	<Item Name="tcs shm register Callback command stop ackcmd LV.vi" Type="VI" URL="../VIs/tcs shm register Callback command stop ackcmd LV.vi"/>
+	<Item Name="tcs shm register Callback logevent Applied Settings Match Start LV.vi" Type="VI" URL="../VIs/tcs shm register Callback logevent Applied Settings Match Start LV.vi"/>
+	<Item Name="tcs shm register Callback logevent Detailed State LV.vi" Type="VI" URL="../VIs/tcs shm register Callback logevent Detailed State LV.vi"/>
+	<Item Name="tcs shm register Callback logevent Error Code LV.vi" Type="VI" URL="../VIs/tcs shm register Callback logevent Error Code LV.vi"/>
+	<Item Name="tcs shm register Callback logevent Heartbeat In LV.vi" Type="VI" URL="../VIs/tcs shm register Callback logevent Heartbeat In LV.vi"/>
+	<Item Name="tcs shm register Callback logevent Heartbeat LV.vi" Type="VI" URL="../VIs/tcs shm register Callback logevent Heartbeat LV.vi"/>
+	<Item Name="tcs shm register Callback logevent Internal Command LV.vi" Type="VI" URL="../VIs/tcs shm register Callback logevent Internal Command LV.vi"/>
+	<Item Name="tcs shm register Callback logevent LV.vi" Type="VI" URL="../VIs/tcs shm register Callback logevent LV.vi"/>
+	<Item Name="tcs shm register Callback logevent Loop Time Out Of Range LV.vi" Type="VI" URL="../VIs/tcs shm register Callback logevent Loop Time Out Of Range LV.vi"/>
+	<Item Name="tcs shm register Callback logevent Rejected Command LV.vi" Type="VI" URL="../VIs/tcs shm register Callback logevent Rejected Command LV.vi"/>
+	<Item Name="tcs shm register Callback logevent Setting Versions LV.vi" Type="VI" URL="../VIs/tcs shm register Callback logevent Setting Versions LV.vi"/>
+	<Item Name="tcs shm register Callback logevent Summary State LV.vi" Type="VI" URL="../VIs/tcs shm register Callback logevent Summary State LV.vi"/>
+	<Item Name="tcs shm sal Event Applied Settings Match Start LV.vi" Type="VI" URL="../VIs/tcs shm sal Event Applied Settings Match Start LV.vi"/>
+	<Item Name="tcs shm sal Event Detailed State LV.vi" Type="VI" URL="../VIs/tcs shm sal Event Detailed State LV.vi"/>
+	<Item Name="tcs shm sal Event Error Code LV.vi" Type="VI" URL="../VIs/tcs shm sal Event Error Code LV.vi"/>
+	<Item Name="tcs shm sal Event Heartbeat In LV.vi" Type="VI" URL="../VIs/tcs shm sal Event Heartbeat In LV.vi"/>
+	<Item Name="tcs shm sal Event Heartbeat LV.vi" Type="VI" URL="../VIs/tcs shm sal Event Heartbeat LV.vi"/>
+	<Item Name="tcs shm sal Event Internal Command LV.vi" Type="VI" URL="../VIs/tcs shm sal Event Internal Command LV.vi"/>
+	<Item Name="tcs shm sal Event Loop Time Out Of Range LV.vi" Type="VI" URL="../VIs/tcs shm sal Event Loop Time Out Of Range LV.vi"/>
+	<Item Name="tcs shm sal Event Rejected Command LV.vi" Type="VI" URL="../VIs/tcs shm sal Event Rejected Command LV.vi"/>
+	<Item Name="tcs shm sal Event Setting Versions LV.vi" Type="VI" URL="../VIs/tcs shm sal Event Setting Versions LV.vi"/>
+	<Item Name="tcs shm sal Event Summary State LV.vi" Type="VI" URL="../VIs/tcs shm sal Event Summary State LV.vi"/>
+	<Item Name="tcs shm sal Processor disable LV.vi" Type="VI" URL="../VIs/tcs shm sal Processor disable LV.vi"/>
+	<Item Name="tcs shm sal Processor enable LV.vi" Type="VI" URL="../VIs/tcs shm sal Processor enable LV.vi"/>
+	<Item Name="tcs shm sal Processor exit Control LV.vi" Type="VI" URL="../VIs/tcs shm sal Processor exit Control LV.vi"/>
+	<Item Name="tcs shm sal Processor inject Error LV.vi" Type="VI" URL="../VIs/tcs shm sal Processor inject Error LV.vi"/>
+	<Item Name="tcs shm sal Processor standby LV.vi" Type="VI" URL="../VIs/tcs shm sal Processor standby LV.vi"/>
+	<Item Name="tcs shm sal Processor start LV.vi" Type="VI" URL="../VIs/tcs shm sal Processor start LV.vi"/>
+	<Item Name="tcs shm sal Processor stop LV.vi" Type="VI" URL="../VIs/tcs shm sal Processor stop LV.vi"/>
+	<Item Name="tcs shm sal Telemetry Sub Loop Time ms LV.vi" Type="VI" URL="../VIs/tcs shm sal Telemetry Sub Loop Time ms LV.vi"/>
+	<Item Name="tcs shm sal Telemetry Sub Timestamp LV.vi" Type="VI" URL="../VIs/tcs shm sal Telemetry Sub Timestamp LV.vi"/>
+	<Item Name="tcs shm wait For Completion Set Value LV.vi" Type="VI" URL="../VIs/tcs shm wait For Completion Set Value LV.vi"/>
+	<Item Name="tcs shm wait For Completion disable LV.vi" Type="VI" URL="../VIs/tcs shm wait For Completion disable LV.vi"/>
+	<Item Name="tcs shm wait For Completion enable LV.vi" Type="VI" URL="../VIs/tcs shm wait For Completion enable LV.vi"/>
+	<Item Name="tcs shm wait For Completion exit Control LV.vi" Type="VI" URL="../VIs/tcs shm wait For Completion exit Control LV.vi"/>
+	<Item Name="tcs shm wait For Completion inject Error LV.vi" Type="VI" URL="../VIs/tcs shm wait For Completion inject Error LV.vi"/>
+	<Item Name="tcs shm wait For Completion standby LV.vi" Type="VI" URL="../VIs/tcs shm wait For Completion standby LV.vi"/>
+	<Item Name="tcs shm wait For Completion start LV.vi" Type="VI" URL="../VIs/tcs shm wait For Completion start LV.vi"/>
+	<Item Name="tcs shm wait For Completion stop LV.vi" Type="VI" URL="../VIs/tcs shm wait For Completion stop LV.vi"/>
 </Library>
