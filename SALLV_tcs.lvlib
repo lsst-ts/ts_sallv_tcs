@@ -46,6 +46,7 @@
 		<Item Name="logevent_LoopTimeOutOfRange.ctl" Type="VI" URL="../DataTypes/logevent_LoopTimeOutOfRange.ctl"/>
 		<Item Name="logevent_RejectedCommand.ctl" Type="VI" URL="../DataTypes/logevent_RejectedCommand.ctl"/>
 		<Item Name="logevent_SettingVersions.ctl" Type="VI" URL="../DataTypes/logevent_SettingVersions.ctl"/>
+		<Item Name="logevent_SettingsApplied.ctl" Type="VI" URL="../DataTypes/logevent_SettingsApplied.ctl"/>
 		<Item Name="logevent_SummaryState.ctl" Type="VI" URL="../DataTypes/logevent_SummaryState.ctl"/>
 		<Item Name="logevent_TargetInPosition.ctl" Type="VI" URL="../DataTypes/logevent_TargetInPosition.ctl"/>
 		<Item Name="logevent_wfpDataReady.ctl" Type="VI" URL="../DataTypes/logevent_wfpDataReady.ctl"/>
@@ -138,6 +139,7 @@
 	<Item Name="tcs_cancelCallback_logEvent_LoopTimeOutOfRange.vi" Type="VI" URL="../VIs/tcs_cancelCallback_logEvent_LoopTimeOutOfRange.vi"/>
 	<Item Name="tcs_cancelCallback_logEvent_RejectedCommand.vi" Type="VI" URL="../VIs/tcs_cancelCallback_logEvent_RejectedCommand.vi"/>
 	<Item Name="tcs_cancelCallback_logEvent_SettingVersions.vi" Type="VI" URL="../VIs/tcs_cancelCallback_logEvent_SettingVersions.vi"/>
+	<Item Name="tcs_cancelCallback_logEvent_SettingsApplied.vi" Type="VI" URL="../VIs/tcs_cancelCallback_logEvent_SettingsApplied.vi"/>
 	<Item Name="tcs_cancelCallback_logEvent_SummaryState.vi" Type="VI" URL="../VIs/tcs_cancelCallback_logEvent_SummaryState.vi"/>
 	<Item Name="tcs_cancelCallback_logEvent_TargetInPosition.vi" Type="VI" URL="../VIs/tcs_cancelCallback_logEvent_TargetInPosition.vi"/>
 	<Item Name="tcs_cancelCallback_logEvent_wfpDataReady.vi" Type="VI" URL="../VIs/tcs_cancelCallback_logEvent_wfpDataReady.vi"/>
@@ -153,6 +155,7 @@
 	<Item Name="tcs_getEvent_LoopTimeOutOfRange.vi" Type="VI" URL="../VIs/tcs_getEvent_LoopTimeOutOfRange.vi"/>
 	<Item Name="tcs_getEvent_RejectedCommand.vi" Type="VI" URL="../VIs/tcs_getEvent_RejectedCommand.vi"/>
 	<Item Name="tcs_getEvent_SettingVersions.vi" Type="VI" URL="../VIs/tcs_getEvent_SettingVersions.vi"/>
+	<Item Name="tcs_getEvent_SettingsApplied.vi" Type="VI" URL="../VIs/tcs_getEvent_SettingsApplied.vi"/>
 	<Item Name="tcs_getEvent_SummaryState.vi" Type="VI" URL="../VIs/tcs_getEvent_SummaryState.vi"/>
 	<Item Name="tcs_getEvent_TargetInPosition.vi" Type="VI" URL="../VIs/tcs_getEvent_TargetInPosition.vi"/>
 	<Item Name="tcs_getEvent_wfpDataReady.vi" Type="VI" URL="../VIs/tcs_getEvent_wfpDataReady.vi"/>
@@ -225,6 +228,7 @@
 	<Item Name="tcs_logEvent_LoopTimeOutOfRange.vi" Type="VI" URL="../VIs/tcs_logEvent_LoopTimeOutOfRange.vi"/>
 	<Item Name="tcs_logEvent_RejectedCommand.vi" Type="VI" URL="../VIs/tcs_logEvent_RejectedCommand.vi"/>
 	<Item Name="tcs_logEvent_SettingVersions.vi" Type="VI" URL="../VIs/tcs_logEvent_SettingVersions.vi"/>
+	<Item Name="tcs_logEvent_SettingsApplied.vi" Type="VI" URL="../VIs/tcs_logEvent_SettingsApplied.vi"/>
 	<Item Name="tcs_logEvent_SummaryState.vi" Type="VI" URL="../VIs/tcs_logEvent_SummaryState.vi"/>
 	<Item Name="tcs_logEvent_TargetInPosition.vi" Type="VI" URL="../VIs/tcs_logEvent_TargetInPosition.vi"/>
 	<Item Name="tcs_logEvent_wfpDataReady.vi" Type="VI" URL="../VIs/tcs_logEvent_wfpDataReady.vi"/>
@@ -300,6 +304,7 @@
 	<Item Name="tcs_registerCallback_logEvent_LoopTimeOutOfRange.vi" Type="VI" URL="../VIs/tcs_registerCallback_logEvent_LoopTimeOutOfRange.vi"/>
 	<Item Name="tcs_registerCallback_logEvent_RejectedCommand.vi" Type="VI" URL="../VIs/tcs_registerCallback_logEvent_RejectedCommand.vi"/>
 	<Item Name="tcs_registerCallback_logEvent_SettingVersions.vi" Type="VI" URL="../VIs/tcs_registerCallback_logEvent_SettingVersions.vi"/>
+	<Item Name="tcs_registerCallback_logEvent_SettingsApplied.vi" Type="VI" URL="../VIs/tcs_registerCallback_logEvent_SettingsApplied.vi"/>
 	<Item Name="tcs_registerCallback_logEvent_SummaryState.vi" Type="VI" URL="../VIs/tcs_registerCallback_logEvent_SummaryState.vi"/>
 	<Item Name="tcs_registerCallback_logEvent_TargetInPosition.vi" Type="VI" URL="../VIs/tcs_registerCallback_logEvent_TargetInPosition.vi"/>
 	<Item Name="tcs_registerCallback_logEvent_wfpDataReady.vi" Type="VI" URL="../VIs/tcs_registerCallback_logEvent_wfpDataReady.vi"/>
@@ -314,6 +319,7 @@
 	<Item Name="tcs_salEvent_LoopTimeOutOfRange.vi" Type="VI" URL="../VIs/tcs_salEvent_LoopTimeOutOfRange.vi"/>
 	<Item Name="tcs_salEvent_RejectedCommand.vi" Type="VI" URL="../VIs/tcs_salEvent_RejectedCommand.vi"/>
 	<Item Name="tcs_salEvent_SettingVersions.vi" Type="VI" URL="../VIs/tcs_salEvent_SettingVersions.vi"/>
+	<Item Name="tcs_salEvent_SettingsApplied.vi" Type="VI" URL="../VIs/tcs_salEvent_SettingsApplied.vi"/>
 	<Item Name="tcs_salEvent_SummaryState.vi" Type="VI" URL="../VIs/tcs_salEvent_SummaryState.vi"/>
 	<Item Name="tcs_salEvent_TargetInPosition.vi" Type="VI" URL="../VIs/tcs_salEvent_TargetInPosition.vi"/>
 	<Item Name="tcs_salEvent_wfpDataReady.vi" Type="VI" URL="../VIs/tcs_salEvent_wfpDataReady.vi"/>
