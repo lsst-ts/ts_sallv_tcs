@@ -17,10 +17,11 @@
 		<Item Name="command_enable.ctl" Type="VI" URL="../DataTypes/command_enable.ctl"/>
 		<Item Name="command_enterControl.ctl" Type="VI" URL="../DataTypes/command_enterControl.ctl"/>
 		<Item Name="command_exitControl.ctl" Type="VI" URL="../DataTypes/command_exitControl.ctl"/>
-		<Item Name="command_injectError.ctl" Type="VI" URL="../DataTypes/command_injectError.ctl"/>
+		<Item Name="command_filterChangeRequest.ctl" Type="VI" URL="../DataTypes/command_filterChangeRequest.ctl"/>
 		<Item Name="command_standby.ctl" Type="VI" URL="../DataTypes/command_standby.ctl"/>
 		<Item Name="command_start.ctl" Type="VI" URL="../DataTypes/command_start.ctl"/>
 		<Item Name="command_stop.ctl" Type="VI" URL="../DataTypes/command_stop.ctl"/>
+		<Item Name="command_target.ctl" Type="VI" URL="../DataTypes/command_target.ctl"/>
 		<Item Name="command_wfpCalculate.ctl" Type="VI" URL="../DataTypes/command_wfpCalculate.ctl"/>
 		<Item Name="command_wfpSimulate.ctl" Type="VI" URL="../DataTypes/command_wfpSimulate.ctl"/>
 		<Item Name="kernel_DawdleFilter.ctl" Type="VI" URL="../DataTypes/kernel_DawdleFilter.ctl"/>
@@ -38,6 +39,7 @@
 		<Item Name="logevent_AppliedSettingsMatchStart.ctl" Type="VI" URL="../DataTypes/logevent_AppliedSettingsMatchStart.ctl"/>
 		<Item Name="logevent_DetailedState.ctl" Type="VI" URL="../DataTypes/logevent_DetailedState.ctl"/>
 		<Item Name="logevent_ErrorCode.ctl" Type="VI" URL="../DataTypes/logevent_ErrorCode.ctl"/>
+		<Item Name="logevent_FilterChangeInPosition.ctl" Type="VI" URL="../DataTypes/logevent_FilterChangeInPosition.ctl"/>
 		<Item Name="logevent_Heartbeat.ctl" Type="VI" URL="../DataTypes/logevent_Heartbeat.ctl"/>
 		<Item Name="logevent_HeartbeatIn.ctl" Type="VI" URL="../DataTypes/logevent_HeartbeatIn.ctl"/>
 		<Item Name="logevent_InternalCommand.ctl" Type="VI" URL="../DataTypes/logevent_InternalCommand.ctl"/>
@@ -45,48 +47,91 @@
 		<Item Name="logevent_RejectedCommand.ctl" Type="VI" URL="../DataTypes/logevent_RejectedCommand.ctl"/>
 		<Item Name="logevent_SettingVersions.ctl" Type="VI" URL="../DataTypes/logevent_SettingVersions.ctl"/>
 		<Item Name="logevent_SummaryState.ctl" Type="VI" URL="../DataTypes/logevent_SummaryState.ctl"/>
+		<Item Name="logevent_TargetInPosition.ctl" Type="VI" URL="../DataTypes/logevent_TargetInPosition.ctl"/>
 		<Item Name="logevent_wfpDataReady.ctl" Type="VI" URL="../DataTypes/logevent_wfpDataReady.ctl"/>
 		<Item Name="logevent_zemaxError.ctl" Type="VI" URL="../DataTypes/logevent_zemaxError.ctl"/>
+	</Item>
+	<Item Name="subvi" Type="Folder">
+		<Item Name="ErrorConverter(ErrCodeorStatus).vi" Type="VI" URL="../subvi/ErrorConverter(ErrCodeorStatus).vi"/>
 	</Item>
 	<Item Name="SALLV_tcs.so" Type="Document" URL="../SALLV_tcs.so"/>
 	<Item Name="tcs_Connect.vi" Type="VI" URL="../VIs/tcs_Connect.vi"/>
 	<Item Name="tcs_Release.vi" Type="VI" URL="../VIs/tcs_Release.vi"/>
+	<Item Name="tcs_acceptCommand_SetValue.vi" Type="VI" URL="../VIs/tcs_acceptCommand_SetValue.vi"/>
+	<Item Name="tcs_acceptCommand_abort.vi" Type="VI" URL="../VIs/tcs_acceptCommand_abort.vi"/>
 	<Item Name="tcs_acceptCommand_disable.vi" Type="VI" URL="../VIs/tcs_acceptCommand_disable.vi"/>
 	<Item Name="tcs_acceptCommand_enable.vi" Type="VI" URL="../VIs/tcs_acceptCommand_enable.vi"/>
+	<Item Name="tcs_acceptCommand_enterControl.vi" Type="VI" URL="../VIs/tcs_acceptCommand_enterControl.vi"/>
 	<Item Name="tcs_acceptCommand_exitControl.vi" Type="VI" URL="../VIs/tcs_acceptCommand_exitControl.vi"/>
-	<Item Name="tcs_acceptCommand_injectError.vi" Type="VI" URL="../VIs/tcs_acceptCommand_injectError.vi"/>
+	<Item Name="tcs_acceptCommand_filterChangeRequest.vi" Type="VI" URL="../VIs/tcs_acceptCommand_filterChangeRequest.vi"/>
 	<Item Name="tcs_acceptCommand_standby.vi" Type="VI" URL="../VIs/tcs_acceptCommand_standby.vi"/>
 	<Item Name="tcs_acceptCommand_start.vi" Type="VI" URL="../VIs/tcs_acceptCommand_start.vi"/>
 	<Item Name="tcs_acceptCommand_stop.vi" Type="VI" URL="../VIs/tcs_acceptCommand_stop.vi"/>
+	<Item Name="tcs_acceptCommand_target.vi" Type="VI" URL="../VIs/tcs_acceptCommand_target.vi"/>
+	<Item Name="tcs_acceptCommand_wfpCalculate.vi" Type="VI" URL="../VIs/tcs_acceptCommand_wfpCalculate.vi"/>
+	<Item Name="tcs_acceptCommand_wfpSimulate.vi" Type="VI" URL="../VIs/tcs_acceptCommand_wfpSimulate.vi"/>
+	<Item Name="tcs_ackCommand_SetValue.vi" Type="VI" URL="../VIs/tcs_ackCommand_SetValue.vi"/>
+	<Item Name="tcs_ackCommand_abort.vi" Type="VI" URL="../VIs/tcs_ackCommand_abort.vi"/>
 	<Item Name="tcs_ackCommand_disable.vi" Type="VI" URL="../VIs/tcs_ackCommand_disable.vi"/>
 	<Item Name="tcs_ackCommand_enable.vi" Type="VI" URL="../VIs/tcs_ackCommand_enable.vi"/>
+	<Item Name="tcs_ackCommand_enterControl.vi" Type="VI" URL="../VIs/tcs_ackCommand_enterControl.vi"/>
 	<Item Name="tcs_ackCommand_exitControl.vi" Type="VI" URL="../VIs/tcs_ackCommand_exitControl.vi"/>
-	<Item Name="tcs_ackCommand_injectError.vi" Type="VI" URL="../VIs/tcs_ackCommand_injectError.vi"/>
+	<Item Name="tcs_ackCommand_filterChangeRequest.vi" Type="VI" URL="../VIs/tcs_ackCommand_filterChangeRequest.vi"/>
 	<Item Name="tcs_ackCommand_standby.vi" Type="VI" URL="../VIs/tcs_ackCommand_standby.vi"/>
 	<Item Name="tcs_ackCommand_start.vi" Type="VI" URL="../VIs/tcs_ackCommand_start.vi"/>
 	<Item Name="tcs_ackCommand_stop.vi" Type="VI" URL="../VIs/tcs_ackCommand_stop.vi"/>
+	<Item Name="tcs_ackCommand_target.vi" Type="VI" URL="../VIs/tcs_ackCommand_target.vi"/>
+	<Item Name="tcs_ackCommand_wfpCalculate.vi" Type="VI" URL="../VIs/tcs_ackCommand_wfpCalculate.vi"/>
+	<Item Name="tcs_ackCommand_wfpSimulate.vi" Type="VI" URL="../VIs/tcs_ackCommand_wfpSimulate.vi"/>
+	<Item Name="tcs_cancelCallback_AOCS.vi" Type="VI" URL="../VIs/tcs_cancelCallback_AOCS.vi"/>
 	<Item Name="tcs_cancelCallback_LoopTimems.vi" Type="VI" URL="../VIs/tcs_cancelCallback_LoopTimems.vi"/>
 	<Item Name="tcs_cancelCallback_Timestamp.vi" Type="VI" URL="../VIs/tcs_cancelCallback_Timestamp.vi"/>
+	<Item Name="tcs_cancelCallback_WEP.vi" Type="VI" URL="../VIs/tcs_cancelCallback_WEP.vi"/>
+	<Item Name="tcs_cancelCallback_ZEMAX.vi" Type="VI" URL="../VIs/tcs_cancelCallback_ZEMAX.vi"/>
 	<Item Name="tcs_cancelCallback_ackcmd.vi" Type="VI" URL="../VIs/tcs_cancelCallback_ackcmd.vi"/>
 	<Item Name="tcs_cancelCallback_command_.vi" Type="VI" URL="../VIs/tcs_cancelCallback_command_.vi"/>
+	<Item Name="tcs_cancelCallback_command_SetValue.vi" Type="VI" URL="../VIs/tcs_cancelCallback_command_SetValue.vi"/>
+	<Item Name="tcs_cancelCallback_command_SetValueackcmd.vi" Type="VI" URL="../VIs/tcs_cancelCallback_command_SetValueackcmd.vi"/>
+	<Item Name="tcs_cancelCallback_command_abort.vi" Type="VI" URL="../VIs/tcs_cancelCallback_command_abort.vi"/>
+	<Item Name="tcs_cancelCallback_command_abortackcmd.vi" Type="VI" URL="../VIs/tcs_cancelCallback_command_abortackcmd.vi"/>
 	<Item Name="tcs_cancelCallback_command_disable.vi" Type="VI" URL="../VIs/tcs_cancelCallback_command_disable.vi"/>
 	<Item Name="tcs_cancelCallback_command_disableackcmd.vi" Type="VI" URL="../VIs/tcs_cancelCallback_command_disableackcmd.vi"/>
 	<Item Name="tcs_cancelCallback_command_enable.vi" Type="VI" URL="../VIs/tcs_cancelCallback_command_enable.vi"/>
 	<Item Name="tcs_cancelCallback_command_enableackcmd.vi" Type="VI" URL="../VIs/tcs_cancelCallback_command_enableackcmd.vi"/>
+	<Item Name="tcs_cancelCallback_command_enterControl.vi" Type="VI" URL="../VIs/tcs_cancelCallback_command_enterControl.vi"/>
+	<Item Name="tcs_cancelCallback_command_enterControlackcmd.vi" Type="VI" URL="../VIs/tcs_cancelCallback_command_enterControlackcmd.vi"/>
 	<Item Name="tcs_cancelCallback_command_exitControl.vi" Type="VI" URL="../VIs/tcs_cancelCallback_command_exitControl.vi"/>
 	<Item Name="tcs_cancelCallback_command_exitControlackcmd.vi" Type="VI" URL="../VIs/tcs_cancelCallback_command_exitControlackcmd.vi"/>
-	<Item Name="tcs_cancelCallback_command_injectError.vi" Type="VI" URL="../VIs/tcs_cancelCallback_command_injectError.vi"/>
-	<Item Name="tcs_cancelCallback_command_injectErrorackcmd.vi" Type="VI" URL="../VIs/tcs_cancelCallback_command_injectErrorackcmd.vi"/>
+	<Item Name="tcs_cancelCallback_command_filterChangeRequest.vi" Type="VI" URL="../VIs/tcs_cancelCallback_command_filterChangeRequest.vi"/>
+	<Item Name="tcs_cancelCallback_command_filterChangeRequestackcmd.vi" Type="VI" URL="../VIs/tcs_cancelCallback_command_filterChangeRequestackcmd.vi"/>
 	<Item Name="tcs_cancelCallback_command_standby.vi" Type="VI" URL="../VIs/tcs_cancelCallback_command_standby.vi"/>
 	<Item Name="tcs_cancelCallback_command_standbyackcmd.vi" Type="VI" URL="../VIs/tcs_cancelCallback_command_standbyackcmd.vi"/>
 	<Item Name="tcs_cancelCallback_command_start.vi" Type="VI" URL="../VIs/tcs_cancelCallback_command_start.vi"/>
 	<Item Name="tcs_cancelCallback_command_startackcmd.vi" Type="VI" URL="../VIs/tcs_cancelCallback_command_startackcmd.vi"/>
 	<Item Name="tcs_cancelCallback_command_stop.vi" Type="VI" URL="../VIs/tcs_cancelCallback_command_stop.vi"/>
 	<Item Name="tcs_cancelCallback_command_stopackcmd.vi" Type="VI" URL="../VIs/tcs_cancelCallback_command_stopackcmd.vi"/>
+	<Item Name="tcs_cancelCallback_command_target.vi" Type="VI" URL="../VIs/tcs_cancelCallback_command_target.vi"/>
+	<Item Name="tcs_cancelCallback_command_targetackcmd.vi" Type="VI" URL="../VIs/tcs_cancelCallback_command_targetackcmd.vi"/>
+	<Item Name="tcs_cancelCallback_command_wfpCalculate.vi" Type="VI" URL="../VIs/tcs_cancelCallback_command_wfpCalculate.vi"/>
+	<Item Name="tcs_cancelCallback_command_wfpCalculateackcmd.vi" Type="VI" URL="../VIs/tcs_cancelCallback_command_wfpCalculateackcmd.vi"/>
+	<Item Name="tcs_cancelCallback_command_wfpSimulate.vi" Type="VI" URL="../VIs/tcs_cancelCallback_command_wfpSimulate.vi"/>
+	<Item Name="tcs_cancelCallback_command_wfpSimulateackcmd.vi" Type="VI" URL="../VIs/tcs_cancelCallback_command_wfpSimulateackcmd.vi"/>
+	<Item Name="tcs_cancelCallback_kernelDawdleFilter.vi" Type="VI" URL="../VIs/tcs_cancelCallback_kernelDawdleFilter.vi"/>
+	<Item Name="tcs_cancelCallback_kernelFK5Target.vi" Type="VI" URL="../VIs/tcs_cancelCallback_kernelFK5Target.vi"/>
+	<Item Name="tcs_cancelCallback_kernelOpticsVt.vi" Type="VI" URL="../VIs/tcs_cancelCallback_kernelOpticsVt.vi"/>
+	<Item Name="tcs_cancelCallback_kernelPointingControl.vi" Type="VI" URL="../VIs/tcs_cancelCallback_kernelPointingControl.vi"/>
+	<Item Name="tcs_cancelCallback_kernelPointingLog.vi" Type="VI" URL="../VIs/tcs_cancelCallback_kernelPointingLog.vi"/>
+	<Item Name="tcs_cancelCallback_kernelPointingModel.vi" Type="VI" URL="../VIs/tcs_cancelCallback_kernelPointingModel.vi"/>
+	<Item Name="tcs_cancelCallback_kernelSite.vi" Type="VI" URL="../VIs/tcs_cancelCallback_kernelSite.vi"/>
+	<Item Name="tcs_cancelCallback_kernelTarget.vi" Type="VI" URL="../VIs/tcs_cancelCallback_kernelTarget.vi"/>
+	<Item Name="tcs_cancelCallback_kernelTimeKeeper.vi" Type="VI" URL="../VIs/tcs_cancelCallback_kernelTimeKeeper.vi"/>
+	<Item Name="tcs_cancelCallback_kernelTrackRefSys.vi" Type="VI" URL="../VIs/tcs_cancelCallback_kernelTrackRefSys.vi"/>
+	<Item Name="tcs_cancelCallback_kernelTrackingTarget.vi" Type="VI" URL="../VIs/tcs_cancelCallback_kernelTrackingTarget.vi"/>
 	<Item Name="tcs_cancelCallback_logEvent_.vi" Type="VI" URL="../VIs/tcs_cancelCallback_logEvent_.vi"/>
 	<Item Name="tcs_cancelCallback_logEvent_AppliedSettingsMatchStart.vi" Type="VI" URL="../VIs/tcs_cancelCallback_logEvent_AppliedSettingsMatchStart.vi"/>
 	<Item Name="tcs_cancelCallback_logEvent_DetailedState.vi" Type="VI" URL="../VIs/tcs_cancelCallback_logEvent_DetailedState.vi"/>
 	<Item Name="tcs_cancelCallback_logEvent_ErrorCode.vi" Type="VI" URL="../VIs/tcs_cancelCallback_logEvent_ErrorCode.vi"/>
+	<Item Name="tcs_cancelCallback_logEvent_FilterChangeInPosition.vi" Type="VI" URL="../VIs/tcs_cancelCallback_logEvent_FilterChangeInPosition.vi"/>
 	<Item Name="tcs_cancelCallback_logEvent_Heartbeat.vi" Type="VI" URL="../VIs/tcs_cancelCallback_logEvent_Heartbeat.vi"/>
 	<Item Name="tcs_cancelCallback_logEvent_HeartbeatIn.vi" Type="VI" URL="../VIs/tcs_cancelCallback_logEvent_HeartbeatIn.vi"/>
 	<Item Name="tcs_cancelCallback_logEvent_InternalCommand.vi" Type="VI" URL="../VIs/tcs_cancelCallback_logEvent_InternalCommand.vi"/>
@@ -94,10 +139,14 @@
 	<Item Name="tcs_cancelCallback_logEvent_RejectedCommand.vi" Type="VI" URL="../VIs/tcs_cancelCallback_logEvent_RejectedCommand.vi"/>
 	<Item Name="tcs_cancelCallback_logEvent_SettingVersions.vi" Type="VI" URL="../VIs/tcs_cancelCallback_logEvent_SettingVersions.vi"/>
 	<Item Name="tcs_cancelCallback_logEvent_SummaryState.vi" Type="VI" URL="../VIs/tcs_cancelCallback_logEvent_SummaryState.vi"/>
+	<Item Name="tcs_cancelCallback_logEvent_TargetInPosition.vi" Type="VI" URL="../VIs/tcs_cancelCallback_logEvent_TargetInPosition.vi"/>
+	<Item Name="tcs_cancelCallback_logEvent_wfpDataReady.vi" Type="VI" URL="../VIs/tcs_cancelCallback_logEvent_wfpDataReady.vi"/>
+	<Item Name="tcs_cancelCallback_logEvent_zemaxError.vi" Type="VI" URL="../VIs/tcs_cancelCallback_logEvent_zemaxError.vi"/>
 	<Item Name="tcs_checkCallbacks.vi" Type="VI" URL="../VIs/tcs_checkCallbacks.vi"/>
 	<Item Name="tcs_getEvent_AppliedSettingsMatchStart.vi" Type="VI" URL="../VIs/tcs_getEvent_AppliedSettingsMatchStart.vi"/>
 	<Item Name="tcs_getEvent_DetailedState.vi" Type="VI" URL="../VIs/tcs_getEvent_DetailedState.vi"/>
 	<Item Name="tcs_getEvent_ErrorCode.vi" Type="VI" URL="../VIs/tcs_getEvent_ErrorCode.vi"/>
+	<Item Name="tcs_getEvent_FilterChangeInPosition.vi" Type="VI" URL="../VIs/tcs_getEvent_FilterChangeInPosition.vi"/>
 	<Item Name="tcs_getEvent_Heartbeat.vi" Type="VI" URL="../VIs/tcs_getEvent_Heartbeat.vi"/>
 	<Item Name="tcs_getEvent_HeartbeatIn.vi" Type="VI" URL="../VIs/tcs_getEvent_HeartbeatIn.vi"/>
 	<Item Name="tcs_getEvent_InternalCommand.vi" Type="VI" URL="../VIs/tcs_getEvent_InternalCommand.vi"/>
@@ -105,28 +154,71 @@
 	<Item Name="tcs_getEvent_RejectedCommand.vi" Type="VI" URL="../VIs/tcs_getEvent_RejectedCommand.vi"/>
 	<Item Name="tcs_getEvent_SettingVersions.vi" Type="VI" URL="../VIs/tcs_getEvent_SettingVersions.vi"/>
 	<Item Name="tcs_getEvent_SummaryState.vi" Type="VI" URL="../VIs/tcs_getEvent_SummaryState.vi"/>
+	<Item Name="tcs_getEvent_TargetInPosition.vi" Type="VI" URL="../VIs/tcs_getEvent_TargetInPosition.vi"/>
+	<Item Name="tcs_getEvent_wfpDataReady.vi" Type="VI" URL="../VIs/tcs_getEvent_wfpDataReady.vi"/>
+	<Item Name="tcs_getEvent_zemaxError.vi" Type="VI" URL="../VIs/tcs_getEvent_zemaxError.vi"/>
+	<Item Name="tcs_getNextSample_AOCS.vi" Type="VI" URL="../VIs/tcs_getNextSample_AOCS.vi"/>
 	<Item Name="tcs_getNextSample_LoopTimems.vi" Type="VI" URL="../VIs/tcs_getNextSample_LoopTimems.vi"/>
 	<Item Name="tcs_getNextSample_Timestamp.vi" Type="VI" URL="../VIs/tcs_getNextSample_Timestamp.vi"/>
+	<Item Name="tcs_getNextSample_WEP.vi" Type="VI" URL="../VIs/tcs_getNextSample_WEP.vi"/>
+	<Item Name="tcs_getNextSample_ZEMAX.vi" Type="VI" URL="../VIs/tcs_getNextSample_ZEMAX.vi"/>
+	<Item Name="tcs_getNextSample_kernelDawdleFilter.vi" Type="VI" URL="../VIs/tcs_getNextSample_kernelDawdleFilter.vi"/>
+	<Item Name="tcs_getNextSample_kernelFK5Target.vi" Type="VI" URL="../VIs/tcs_getNextSample_kernelFK5Target.vi"/>
+	<Item Name="tcs_getNextSample_kernelOpticsVt.vi" Type="VI" URL="../VIs/tcs_getNextSample_kernelOpticsVt.vi"/>
+	<Item Name="tcs_getNextSample_kernelPointingControl.vi" Type="VI" URL="../VIs/tcs_getNextSample_kernelPointingControl.vi"/>
+	<Item Name="tcs_getNextSample_kernelPointingLog.vi" Type="VI" URL="../VIs/tcs_getNextSample_kernelPointingLog.vi"/>
+	<Item Name="tcs_getNextSample_kernelPointingModel.vi" Type="VI" URL="../VIs/tcs_getNextSample_kernelPointingModel.vi"/>
+	<Item Name="tcs_getNextSample_kernelSite.vi" Type="VI" URL="../VIs/tcs_getNextSample_kernelSite.vi"/>
+	<Item Name="tcs_getNextSample_kernelTarget.vi" Type="VI" URL="../VIs/tcs_getNextSample_kernelTarget.vi"/>
+	<Item Name="tcs_getNextSample_kernelTimeKeeper.vi" Type="VI" URL="../VIs/tcs_getNextSample_kernelTimeKeeper.vi"/>
+	<Item Name="tcs_getNextSample_kernelTrackRefSys.vi" Type="VI" URL="../VIs/tcs_getNextSample_kernelTrackRefSys.vi"/>
+	<Item Name="tcs_getNextSample_kernelTrackingTarget.vi" Type="VI" URL="../VIs/tcs_getNextSample_kernelTrackingTarget.vi"/>
+	<Item Name="tcs_getResponse_SetValue.vi" Type="VI" URL="../VIs/tcs_getResponse_SetValue.vi"/>
+	<Item Name="tcs_getResponse_abort.vi" Type="VI" URL="../VIs/tcs_getResponse_abort.vi"/>
 	<Item Name="tcs_getResponse_disable.vi" Type="VI" URL="../VIs/tcs_getResponse_disable.vi"/>
 	<Item Name="tcs_getResponse_enable.vi" Type="VI" URL="../VIs/tcs_getResponse_enable.vi"/>
+	<Item Name="tcs_getResponse_enterControl.vi" Type="VI" URL="../VIs/tcs_getResponse_enterControl.vi"/>
 	<Item Name="tcs_getResponse_exitControl.vi" Type="VI" URL="../VIs/tcs_getResponse_exitControl.vi"/>
-	<Item Name="tcs_getResponse_injectError.vi" Type="VI" URL="../VIs/tcs_getResponse_injectError.vi"/>
+	<Item Name="tcs_getResponse_filterChangeRequest.vi" Type="VI" URL="../VIs/tcs_getResponse_filterChangeRequest.vi"/>
 	<Item Name="tcs_getResponse_standby.vi" Type="VI" URL="../VIs/tcs_getResponse_standby.vi"/>
 	<Item Name="tcs_getResponse_start.vi" Type="VI" URL="../VIs/tcs_getResponse_start.vi"/>
 	<Item Name="tcs_getResponse_stop.vi" Type="VI" URL="../VIs/tcs_getResponse_stop.vi"/>
+	<Item Name="tcs_getResponse_target.vi" Type="VI" URL="../VIs/tcs_getResponse_target.vi"/>
+	<Item Name="tcs_getResponse_wfpCalculate.vi" Type="VI" URL="../VIs/tcs_getResponse_wfpCalculate.vi"/>
+	<Item Name="tcs_getResponse_wfpSimulate.vi" Type="VI" URL="../VIs/tcs_getResponse_wfpSimulate.vi"/>
+	<Item Name="tcs_getSample_AOCS.vi" Type="VI" URL="../VIs/tcs_getSample_AOCS.vi"/>
 	<Item Name="tcs_getSample_LoopTimems.vi" Type="VI" URL="../VIs/tcs_getSample_LoopTimems.vi"/>
 	<Item Name="tcs_getSample_Timestamp.vi" Type="VI" URL="../VIs/tcs_getSample_Timestamp.vi"/>
+	<Item Name="tcs_getSample_WEP.vi" Type="VI" URL="../VIs/tcs_getSample_WEP.vi"/>
+	<Item Name="tcs_getSample_ZEMAX.vi" Type="VI" URL="../VIs/tcs_getSample_ZEMAX.vi"/>
+	<Item Name="tcs_getSample_kernelDawdleFilter.vi" Type="VI" URL="../VIs/tcs_getSample_kernelDawdleFilter.vi"/>
+	<Item Name="tcs_getSample_kernelFK5Target.vi" Type="VI" URL="../VIs/tcs_getSample_kernelFK5Target.vi"/>
+	<Item Name="tcs_getSample_kernelOpticsVt.vi" Type="VI" URL="../VIs/tcs_getSample_kernelOpticsVt.vi"/>
+	<Item Name="tcs_getSample_kernelPointingControl.vi" Type="VI" URL="../VIs/tcs_getSample_kernelPointingControl.vi"/>
+	<Item Name="tcs_getSample_kernelPointingLog.vi" Type="VI" URL="../VIs/tcs_getSample_kernelPointingLog.vi"/>
+	<Item Name="tcs_getSample_kernelPointingModel.vi" Type="VI" URL="../VIs/tcs_getSample_kernelPointingModel.vi"/>
+	<Item Name="tcs_getSample_kernelSite.vi" Type="VI" URL="../VIs/tcs_getSample_kernelSite.vi"/>
+	<Item Name="tcs_getSample_kernelTarget.vi" Type="VI" URL="../VIs/tcs_getSample_kernelTarget.vi"/>
+	<Item Name="tcs_getSample_kernelTimeKeeper.vi" Type="VI" URL="../VIs/tcs_getSample_kernelTimeKeeper.vi"/>
+	<Item Name="tcs_getSample_kernelTrackRefSys.vi" Type="VI" URL="../VIs/tcs_getSample_kernelTrackRefSys.vi"/>
+	<Item Name="tcs_getSample_kernelTrackingTarget.vi" Type="VI" URL="../VIs/tcs_getSample_kernelTrackingTarget.vi"/>
 	<Item Name="tcs_issueCommand_SetValue.vi" Type="VI" URL="../VIs/tcs_issueCommand_SetValue.vi"/>
+	<Item Name="tcs_issueCommand_abort.vi" Type="VI" URL="../VIs/tcs_issueCommand_abort.vi"/>
 	<Item Name="tcs_issueCommand_disable.vi" Type="VI" URL="../VIs/tcs_issueCommand_disable.vi"/>
 	<Item Name="tcs_issueCommand_enable.vi" Type="VI" URL="../VIs/tcs_issueCommand_enable.vi"/>
+	<Item Name="tcs_issueCommand_enterControl.vi" Type="VI" URL="../VIs/tcs_issueCommand_enterControl.vi"/>
 	<Item Name="tcs_issueCommand_exitControl.vi" Type="VI" URL="../VIs/tcs_issueCommand_exitControl.vi"/>
-	<Item Name="tcs_issueCommand_injectError.vi" Type="VI" URL="../VIs/tcs_issueCommand_injectError.vi"/>
+	<Item Name="tcs_issueCommand_filterChangeRequest.vi" Type="VI" URL="../VIs/tcs_issueCommand_filterChangeRequest.vi"/>
 	<Item Name="tcs_issueCommand_standby.vi" Type="VI" URL="../VIs/tcs_issueCommand_standby.vi"/>
 	<Item Name="tcs_issueCommand_start.vi" Type="VI" URL="../VIs/tcs_issueCommand_start.vi"/>
 	<Item Name="tcs_issueCommand_stop.vi" Type="VI" URL="../VIs/tcs_issueCommand_stop.vi"/>
+	<Item Name="tcs_issueCommand_target.vi" Type="VI" URL="../VIs/tcs_issueCommand_target.vi"/>
+	<Item Name="tcs_issueCommand_wfpCalculate.vi" Type="VI" URL="../VIs/tcs_issueCommand_wfpCalculate.vi"/>
+	<Item Name="tcs_issueCommand_wfpSimulate.vi" Type="VI" URL="../VIs/tcs_issueCommand_wfpSimulate.vi"/>
 	<Item Name="tcs_logEvent_AppliedSettingsMatchStart.vi" Type="VI" URL="../VIs/tcs_logEvent_AppliedSettingsMatchStart.vi"/>
 	<Item Name="tcs_logEvent_DetailedState.vi" Type="VI" URL="../VIs/tcs_logEvent_DetailedState.vi"/>
 	<Item Name="tcs_logEvent_ErrorCode.vi" Type="VI" URL="../VIs/tcs_logEvent_ErrorCode.vi"/>
+	<Item Name="tcs_logEvent_FilterChangeInPosition.vi" Type="VI" URL="../VIs/tcs_logEvent_FilterChangeInPosition.vi"/>
 	<Item Name="tcs_logEvent_Heartbeat.vi" Type="VI" URL="../VIs/tcs_logEvent_Heartbeat.vi"/>
 	<Item Name="tcs_logEvent_HeartbeatIn.vi" Type="VI" URL="../VIs/tcs_logEvent_HeartbeatIn.vi"/>
 	<Item Name="tcs_logEvent_InternalCommand.vi" Type="VI" URL="../VIs/tcs_logEvent_InternalCommand.vi"/>
@@ -134,30 +226,74 @@
 	<Item Name="tcs_logEvent_RejectedCommand.vi" Type="VI" URL="../VIs/tcs_logEvent_RejectedCommand.vi"/>
 	<Item Name="tcs_logEvent_SettingVersions.vi" Type="VI" URL="../VIs/tcs_logEvent_SettingVersions.vi"/>
 	<Item Name="tcs_logEvent_SummaryState.vi" Type="VI" URL="../VIs/tcs_logEvent_SummaryState.vi"/>
+	<Item Name="tcs_logEvent_TargetInPosition.vi" Type="VI" URL="../VIs/tcs_logEvent_TargetInPosition.vi"/>
+	<Item Name="tcs_logEvent_wfpDataReady.vi" Type="VI" URL="../VIs/tcs_logEvent_wfpDataReady.vi"/>
+	<Item Name="tcs_logEvent_zemaxError.vi" Type="VI" URL="../VIs/tcs_logEvent_zemaxError.vi"/>
+	<Item Name="tcs_putSample_AOCS.vi" Type="VI" URL="../VIs/tcs_putSample_AOCS.vi"/>
 	<Item Name="tcs_putSample_LoopTimems.vi" Type="VI" URL="../VIs/tcs_putSample_LoopTimems.vi"/>
 	<Item Name="tcs_putSample_Timestamp.vi" Type="VI" URL="../VIs/tcs_putSample_Timestamp.vi"/>
+	<Item Name="tcs_putSample_WEP.vi" Type="VI" URL="../VIs/tcs_putSample_WEP.vi"/>
+	<Item Name="tcs_putSample_ZEMAX.vi" Type="VI" URL="../VIs/tcs_putSample_ZEMAX.vi"/>
+	<Item Name="tcs_putSample_kernelDawdleFilter.vi" Type="VI" URL="../VIs/tcs_putSample_kernelDawdleFilter.vi"/>
+	<Item Name="tcs_putSample_kernelFK5Target.vi" Type="VI" URL="../VIs/tcs_putSample_kernelFK5Target.vi"/>
+	<Item Name="tcs_putSample_kernelOpticsVt.vi" Type="VI" URL="../VIs/tcs_putSample_kernelOpticsVt.vi"/>
+	<Item Name="tcs_putSample_kernelPointingControl.vi" Type="VI" URL="../VIs/tcs_putSample_kernelPointingControl.vi"/>
+	<Item Name="tcs_putSample_kernelPointingLog.vi" Type="VI" URL="../VIs/tcs_putSample_kernelPointingLog.vi"/>
+	<Item Name="tcs_putSample_kernelPointingModel.vi" Type="VI" URL="../VIs/tcs_putSample_kernelPointingModel.vi"/>
+	<Item Name="tcs_putSample_kernelSite.vi" Type="VI" URL="../VIs/tcs_putSample_kernelSite.vi"/>
+	<Item Name="tcs_putSample_kernelTarget.vi" Type="VI" URL="../VIs/tcs_putSample_kernelTarget.vi"/>
+	<Item Name="tcs_putSample_kernelTimeKeeper.vi" Type="VI" URL="../VIs/tcs_putSample_kernelTimeKeeper.vi"/>
+	<Item Name="tcs_putSample_kernelTrackRefSys.vi" Type="VI" URL="../VIs/tcs_putSample_kernelTrackRefSys.vi"/>
+	<Item Name="tcs_putSample_kernelTrackingTarget.vi" Type="VI" URL="../VIs/tcs_putSample_kernelTrackingTarget.vi"/>
+	<Item Name="tcs_registerCallback_AOCS.vi" Type="VI" URL="../VIs/tcs_registerCallback_AOCS.vi"/>
 	<Item Name="tcs_registerCallback_LoopTimems.vi" Type="VI" URL="../VIs/tcs_registerCallback_LoopTimems.vi"/>
 	<Item Name="tcs_registerCallback_Timestamp.vi" Type="VI" URL="../VIs/tcs_registerCallback_Timestamp.vi"/>
+	<Item Name="tcs_registerCallback_WEP.vi" Type="VI" URL="../VIs/tcs_registerCallback_WEP.vi"/>
+	<Item Name="tcs_registerCallback_ZEMAX.vi" Type="VI" URL="../VIs/tcs_registerCallback_ZEMAX.vi"/>
 	<Item Name="tcs_registerCallback_ackcmd.vi" Type="VI" URL="../VIs/tcs_registerCallback_ackcmd.vi"/>
 	<Item Name="tcs_registerCallback_command_.vi" Type="VI" URL="../VIs/tcs_registerCallback_command_.vi"/>
+	<Item Name="tcs_registerCallback_command_SetValue.vi" Type="VI" URL="../VIs/tcs_registerCallback_command_SetValue.vi"/>
+	<Item Name="tcs_registerCallback_command_SetValueackcmd.vi" Type="VI" URL="../VIs/tcs_registerCallback_command_SetValueackcmd.vi"/>
+	<Item Name="tcs_registerCallback_command_abort.vi" Type="VI" URL="../VIs/tcs_registerCallback_command_abort.vi"/>
+	<Item Name="tcs_registerCallback_command_abortackcmd.vi" Type="VI" URL="../VIs/tcs_registerCallback_command_abortackcmd.vi"/>
 	<Item Name="tcs_registerCallback_command_disable.vi" Type="VI" URL="../VIs/tcs_registerCallback_command_disable.vi"/>
 	<Item Name="tcs_registerCallback_command_disableackcmd.vi" Type="VI" URL="../VIs/tcs_registerCallback_command_disableackcmd.vi"/>
 	<Item Name="tcs_registerCallback_command_enable.vi" Type="VI" URL="../VIs/tcs_registerCallback_command_enable.vi"/>
 	<Item Name="tcs_registerCallback_command_enableackcmd.vi" Type="VI" URL="../VIs/tcs_registerCallback_command_enableackcmd.vi"/>
+	<Item Name="tcs_registerCallback_command_enterControl.vi" Type="VI" URL="../VIs/tcs_registerCallback_command_enterControl.vi"/>
+	<Item Name="tcs_registerCallback_command_enterControlackcmd.vi" Type="VI" URL="../VIs/tcs_registerCallback_command_enterControlackcmd.vi"/>
 	<Item Name="tcs_registerCallback_command_exitControl.vi" Type="VI" URL="../VIs/tcs_registerCallback_command_exitControl.vi"/>
 	<Item Name="tcs_registerCallback_command_exitControlackcmd.vi" Type="VI" URL="../VIs/tcs_registerCallback_command_exitControlackcmd.vi"/>
-	<Item Name="tcs_registerCallback_command_injectError.vi" Type="VI" URL="../VIs/tcs_registerCallback_command_injectError.vi"/>
-	<Item Name="tcs_registerCallback_command_injectErrorackcmd.vi" Type="VI" URL="../VIs/tcs_registerCallback_command_injectErrorackcmd.vi"/>
+	<Item Name="tcs_registerCallback_command_filterChangeRequest.vi" Type="VI" URL="../VIs/tcs_registerCallback_command_filterChangeRequest.vi"/>
+	<Item Name="tcs_registerCallback_command_filterChangeRequestackcmd.vi" Type="VI" URL="../VIs/tcs_registerCallback_command_filterChangeRequestackcmd.vi"/>
 	<Item Name="tcs_registerCallback_command_standby.vi" Type="VI" URL="../VIs/tcs_registerCallback_command_standby.vi"/>
 	<Item Name="tcs_registerCallback_command_standbyackcmd.vi" Type="VI" URL="../VIs/tcs_registerCallback_command_standbyackcmd.vi"/>
 	<Item Name="tcs_registerCallback_command_start.vi" Type="VI" URL="../VIs/tcs_registerCallback_command_start.vi"/>
 	<Item Name="tcs_registerCallback_command_startackcmd.vi" Type="VI" URL="../VIs/tcs_registerCallback_command_startackcmd.vi"/>
 	<Item Name="tcs_registerCallback_command_stop.vi" Type="VI" URL="../VIs/tcs_registerCallback_command_stop.vi"/>
 	<Item Name="tcs_registerCallback_command_stopackcmd.vi" Type="VI" URL="../VIs/tcs_registerCallback_command_stopackcmd.vi"/>
+	<Item Name="tcs_registerCallback_command_target.vi" Type="VI" URL="../VIs/tcs_registerCallback_command_target.vi"/>
+	<Item Name="tcs_registerCallback_command_targetackcmd.vi" Type="VI" URL="../VIs/tcs_registerCallback_command_targetackcmd.vi"/>
+	<Item Name="tcs_registerCallback_command_wfpCalculate.vi" Type="VI" URL="../VIs/tcs_registerCallback_command_wfpCalculate.vi"/>
+	<Item Name="tcs_registerCallback_command_wfpCalculateackcmd.vi" Type="VI" URL="../VIs/tcs_registerCallback_command_wfpCalculateackcmd.vi"/>
+	<Item Name="tcs_registerCallback_command_wfpSimulate.vi" Type="VI" URL="../VIs/tcs_registerCallback_command_wfpSimulate.vi"/>
+	<Item Name="tcs_registerCallback_command_wfpSimulateackcmd.vi" Type="VI" URL="../VIs/tcs_registerCallback_command_wfpSimulateackcmd.vi"/>
+	<Item Name="tcs_registerCallback_kernelDawdleFilter.vi" Type="VI" URL="../VIs/tcs_registerCallback_kernelDawdleFilter.vi"/>
+	<Item Name="tcs_registerCallback_kernelFK5Target.vi" Type="VI" URL="../VIs/tcs_registerCallback_kernelFK5Target.vi"/>
+	<Item Name="tcs_registerCallback_kernelOpticsVt.vi" Type="VI" URL="../VIs/tcs_registerCallback_kernelOpticsVt.vi"/>
+	<Item Name="tcs_registerCallback_kernelPointingControl.vi" Type="VI" URL="../VIs/tcs_registerCallback_kernelPointingControl.vi"/>
+	<Item Name="tcs_registerCallback_kernelPointingLog.vi" Type="VI" URL="../VIs/tcs_registerCallback_kernelPointingLog.vi"/>
+	<Item Name="tcs_registerCallback_kernelPointingModel.vi" Type="VI" URL="../VIs/tcs_registerCallback_kernelPointingModel.vi"/>
+	<Item Name="tcs_registerCallback_kernelSite.vi" Type="VI" URL="../VIs/tcs_registerCallback_kernelSite.vi"/>
+	<Item Name="tcs_registerCallback_kernelTarget.vi" Type="VI" URL="../VIs/tcs_registerCallback_kernelTarget.vi"/>
+	<Item Name="tcs_registerCallback_kernelTimeKeeper.vi" Type="VI" URL="../VIs/tcs_registerCallback_kernelTimeKeeper.vi"/>
+	<Item Name="tcs_registerCallback_kernelTrackRefSys.vi" Type="VI" URL="../VIs/tcs_registerCallback_kernelTrackRefSys.vi"/>
+	<Item Name="tcs_registerCallback_kernelTrackingTarget.vi" Type="VI" URL="../VIs/tcs_registerCallback_kernelTrackingTarget.vi"/>
 	<Item Name="tcs_registerCallback_logEvent_.vi" Type="VI" URL="../VIs/tcs_registerCallback_logEvent_.vi"/>
 	<Item Name="tcs_registerCallback_logEvent_AppliedSettingsMatchStart.vi" Type="VI" URL="../VIs/tcs_registerCallback_logEvent_AppliedSettingsMatchStart.vi"/>
 	<Item Name="tcs_registerCallback_logEvent_DetailedState.vi" Type="VI" URL="../VIs/tcs_registerCallback_logEvent_DetailedState.vi"/>
 	<Item Name="tcs_registerCallback_logEvent_ErrorCode.vi" Type="VI" URL="../VIs/tcs_registerCallback_logEvent_ErrorCode.vi"/>
+	<Item Name="tcs_registerCallback_logEvent_FilterChangeInPosition.vi" Type="VI" URL="../VIs/tcs_registerCallback_logEvent_FilterChangeInPosition.vi"/>
 	<Item Name="tcs_registerCallback_logEvent_Heartbeat.vi" Type="VI" URL="../VIs/tcs_registerCallback_logEvent_Heartbeat.vi"/>
 	<Item Name="tcs_registerCallback_logEvent_HeartbeatIn.vi" Type="VI" URL="../VIs/tcs_registerCallback_logEvent_HeartbeatIn.vi"/>
 	<Item Name="tcs_registerCallback_logEvent_InternalCommand.vi" Type="VI" URL="../VIs/tcs_registerCallback_logEvent_InternalCommand.vi"/>
@@ -165,9 +301,13 @@
 	<Item Name="tcs_registerCallback_logEvent_RejectedCommand.vi" Type="VI" URL="../VIs/tcs_registerCallback_logEvent_RejectedCommand.vi"/>
 	<Item Name="tcs_registerCallback_logEvent_SettingVersions.vi" Type="VI" URL="../VIs/tcs_registerCallback_logEvent_SettingVersions.vi"/>
 	<Item Name="tcs_registerCallback_logEvent_SummaryState.vi" Type="VI" URL="../VIs/tcs_registerCallback_logEvent_SummaryState.vi"/>
+	<Item Name="tcs_registerCallback_logEvent_TargetInPosition.vi" Type="VI" URL="../VIs/tcs_registerCallback_logEvent_TargetInPosition.vi"/>
+	<Item Name="tcs_registerCallback_logEvent_wfpDataReady.vi" Type="VI" URL="../VIs/tcs_registerCallback_logEvent_wfpDataReady.vi"/>
+	<Item Name="tcs_registerCallback_logEvent_zemaxError.vi" Type="VI" URL="../VIs/tcs_registerCallback_logEvent_zemaxError.vi"/>
 	<Item Name="tcs_salEvent_AppliedSettingsMatchStart.vi" Type="VI" URL="../VIs/tcs_salEvent_AppliedSettingsMatchStart.vi"/>
 	<Item Name="tcs_salEvent_DetailedState.vi" Type="VI" URL="../VIs/tcs_salEvent_DetailedState.vi"/>
 	<Item Name="tcs_salEvent_ErrorCode.vi" Type="VI" URL="../VIs/tcs_salEvent_ErrorCode.vi"/>
+	<Item Name="tcs_salEvent_FilterChangeInPosition.vi" Type="VI" URL="../VIs/tcs_salEvent_FilterChangeInPosition.vi"/>
 	<Item Name="tcs_salEvent_Heartbeat.vi" Type="VI" URL="../VIs/tcs_salEvent_Heartbeat.vi"/>
 	<Item Name="tcs_salEvent_HeartbeatIn.vi" Type="VI" URL="../VIs/tcs_salEvent_HeartbeatIn.vi"/>
 	<Item Name="tcs_salEvent_InternalCommand.vi" Type="VI" URL="../VIs/tcs_salEvent_InternalCommand.vi"/>
@@ -175,22 +315,51 @@
 	<Item Name="tcs_salEvent_RejectedCommand.vi" Type="VI" URL="../VIs/tcs_salEvent_RejectedCommand.vi"/>
 	<Item Name="tcs_salEvent_SettingVersions.vi" Type="VI" URL="../VIs/tcs_salEvent_SettingVersions.vi"/>
 	<Item Name="tcs_salEvent_SummaryState.vi" Type="VI" URL="../VIs/tcs_salEvent_SummaryState.vi"/>
+	<Item Name="tcs_salEvent_TargetInPosition.vi" Type="VI" URL="../VIs/tcs_salEvent_TargetInPosition.vi"/>
+	<Item Name="tcs_salEvent_wfpDataReady.vi" Type="VI" URL="../VIs/tcs_salEvent_wfpDataReady.vi"/>
+	<Item Name="tcs_salEvent_zemaxError.vi" Type="VI" URL="../VIs/tcs_salEvent_zemaxError.vi"/>
+	<Item Name="tcs_salProcessor_SetValue.vi" Type="VI" URL="../VIs/tcs_salProcessor_SetValue.vi"/>
+	<Item Name="tcs_salProcessor_abort.vi" Type="VI" URL="../VIs/tcs_salProcessor_abort.vi"/>
 	<Item Name="tcs_salProcessor_disable.vi" Type="VI" URL="../VIs/tcs_salProcessor_disable.vi"/>
 	<Item Name="tcs_salProcessor_enable.vi" Type="VI" URL="../VIs/tcs_salProcessor_enable.vi"/>
+	<Item Name="tcs_salProcessor_enterControl.vi" Type="VI" URL="../VIs/tcs_salProcessor_enterControl.vi"/>
 	<Item Name="tcs_salProcessor_exitControl.vi" Type="VI" URL="../VIs/tcs_salProcessor_exitControl.vi"/>
-	<Item Name="tcs_salProcessor_injectError.vi" Type="VI" URL="../VIs/tcs_salProcessor_injectError.vi"/>
+	<Item Name="tcs_salProcessor_filterChangeRequest.vi" Type="VI" URL="../VIs/tcs_salProcessor_filterChangeRequest.vi"/>
 	<Item Name="tcs_salProcessor_standby.vi" Type="VI" URL="../VIs/tcs_salProcessor_standby.vi"/>
 	<Item Name="tcs_salProcessor_start.vi" Type="VI" URL="../VIs/tcs_salProcessor_start.vi"/>
 	<Item Name="tcs_salProcessor_stop.vi" Type="VI" URL="../VIs/tcs_salProcessor_stop.vi"/>
+	<Item Name="tcs_salProcessor_target.vi" Type="VI" URL="../VIs/tcs_salProcessor_target.vi"/>
+	<Item Name="tcs_salProcessor_wfpCalculate.vi" Type="VI" URL="../VIs/tcs_salProcessor_wfpCalculate.vi"/>
+	<Item Name="tcs_salProcessor_wfpSimulate.vi" Type="VI" URL="../VIs/tcs_salProcessor_wfpSimulate.vi"/>
+	<Item Name="tcs_salTelemetrySub_AOCS.vi" Type="VI" URL="../VIs/tcs_salTelemetrySub_AOCS.vi"/>
 	<Item Name="tcs_salTelemetrySub_LoopTimems.vi" Type="VI" URL="../VIs/tcs_salTelemetrySub_LoopTimems.vi"/>
 	<Item Name="tcs_salTelemetrySub_Timestamp.vi" Type="VI" URL="../VIs/tcs_salTelemetrySub_Timestamp.vi"/>
+	<Item Name="tcs_salTelemetrySub_WEP.vi" Type="VI" URL="../VIs/tcs_salTelemetrySub_WEP.vi"/>
+	<Item Name="tcs_salTelemetrySub_ZEMAX.vi" Type="VI" URL="../VIs/tcs_salTelemetrySub_ZEMAX.vi"/>
+	<Item Name="tcs_salTelemetrySub_kernelDawdleFilter.vi" Type="VI" URL="../VIs/tcs_salTelemetrySub_kernelDawdleFilter.vi"/>
+	<Item Name="tcs_salTelemetrySub_kernelFK5Target.vi" Type="VI" URL="../VIs/tcs_salTelemetrySub_kernelFK5Target.vi"/>
+	<Item Name="tcs_salTelemetrySub_kernelOpticsVt.vi" Type="VI" URL="../VIs/tcs_salTelemetrySub_kernelOpticsVt.vi"/>
+	<Item Name="tcs_salTelemetrySub_kernelPointingControl.vi" Type="VI" URL="../VIs/tcs_salTelemetrySub_kernelPointingControl.vi"/>
+	<Item Name="tcs_salTelemetrySub_kernelPointingLog.vi" Type="VI" URL="../VIs/tcs_salTelemetrySub_kernelPointingLog.vi"/>
+	<Item Name="tcs_salTelemetrySub_kernelPointingModel.vi" Type="VI" URL="../VIs/tcs_salTelemetrySub_kernelPointingModel.vi"/>
+	<Item Name="tcs_salTelemetrySub_kernelSite.vi" Type="VI" URL="../VIs/tcs_salTelemetrySub_kernelSite.vi"/>
+	<Item Name="tcs_salTelemetrySub_kernelTarget.vi" Type="VI" URL="../VIs/tcs_salTelemetrySub_kernelTarget.vi"/>
+	<Item Name="tcs_salTelemetrySub_kernelTimeKeeper.vi" Type="VI" URL="../VIs/tcs_salTelemetrySub_kernelTimeKeeper.vi"/>
+	<Item Name="tcs_salTelemetrySub_kernelTrackRefSys.vi" Type="VI" URL="../VIs/tcs_salTelemetrySub_kernelTrackRefSys.vi"/>
+	<Item Name="tcs_salTelemetrySub_kernelTrackingTarget.vi" Type="VI" URL="../VIs/tcs_salTelemetrySub_kernelTrackingTarget.vi"/>
 	<Item Name="tcs_waitForCompletion_SetValue.vi" Type="VI" URL="../VIs/tcs_waitForCompletion_SetValue.vi"/>
+	<Item Name="tcs_waitForCompletion_abort.vi" Type="VI" URL="../VIs/tcs_waitForCompletion_abort.vi"/>
 	<Item Name="tcs_waitForCompletion_disable.vi" Type="VI" URL="../VIs/tcs_waitForCompletion_disable.vi"/>
 	<Item Name="tcs_waitForCompletion_enable.vi" Type="VI" URL="../VIs/tcs_waitForCompletion_enable.vi"/>
+	<Item Name="tcs_waitForCompletion_enterControl.vi" Type="VI" URL="../VIs/tcs_waitForCompletion_enterControl.vi"/>
 	<Item Name="tcs_waitForCompletion_exitControl.vi" Type="VI" URL="../VIs/tcs_waitForCompletion_exitControl.vi"/>
-	<Item Name="tcs_waitForCompletion_injectError.vi" Type="VI" URL="../VIs/tcs_waitForCompletion_injectError.vi"/>
+	<Item Name="tcs_waitForCompletion_filterChangeRequest.vi" Type="VI" URL="../VIs/tcs_waitForCompletion_filterChangeRequest.vi"/>
 	<Item Name="tcs_waitForCompletion_standby.vi" Type="VI" URL="../VIs/tcs_waitForCompletion_standby.vi"/>
 	<Item Name="tcs_waitForCompletion_start.vi" Type="VI" URL="../VIs/tcs_waitForCompletion_start.vi"/>
 	<Item Name="tcs_waitForCompletion_stop.vi" Type="VI" URL="../VIs/tcs_waitForCompletion_stop.vi"/>
+	<Item Name="tcs_waitForCompletion_target.vi" Type="VI" URL="../VIs/tcs_waitForCompletion_target.vi"/>
+	<Item Name="tcs_waitForCompletion_wfpCalculate.vi" Type="VI" URL="../VIs/tcs_waitForCompletion_wfpCalculate.vi"/>
+	<Item Name="tcs_waitForCompletion_wfpSimulate.vi" Type="VI" URL="../VIs/tcs_waitForCompletion_wfpSimulate.vi"/>
+	<Item Name="tcsgetCurrentTime.vi" Type="VI" URL="../VIs/tcsgetCurrentTime.vi"/>
 	<Item Name="tcsshminitFlags.vi" Type="VI" URL="../VIs/tcsshminitFlags.vi"/>
 </Library>
