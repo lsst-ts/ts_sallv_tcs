@@ -21,6 +21,7 @@
 		<Item Name="command_standby.ctl" Type="VI" URL="../DataTypes/command_standby.ctl"/>
 		<Item Name="command_start.ctl" Type="VI" URL="../DataTypes/command_start.ctl"/>
 		<Item Name="command_stop.ctl" Type="VI" URL="../DataTypes/command_stop.ctl"/>
+		<Item Name="command_stopMotion.ctl" Type="VI" URL="../DataTypes/command_stopMotion.ctl"/>
 		<Item Name="command_target.ctl" Type="VI" URL="../DataTypes/command_target.ctl"/>
 		<Item Name="command_wfpCalculate.ctl" Type="VI" URL="../DataTypes/command_wfpCalculate.ctl"/>
 		<Item Name="command_wfpSimulate.ctl" Type="VI" URL="../DataTypes/command_wfpSimulate.ctl"/>
@@ -68,6 +69,7 @@
 	<Item Name="tcs_acceptCommand_standby.vi" Type="VI" URL="../VIs/tcs_acceptCommand_standby.vi"/>
 	<Item Name="tcs_acceptCommand_start.vi" Type="VI" URL="../VIs/tcs_acceptCommand_start.vi"/>
 	<Item Name="tcs_acceptCommand_stop.vi" Type="VI" URL="../VIs/tcs_acceptCommand_stop.vi"/>
+	<Item Name="tcs_acceptCommand_stopMotion.vi" Type="VI" URL="../VIs/tcs_acceptCommand_stopMotion.vi"/>
 	<Item Name="tcs_acceptCommand_target.vi" Type="VI" URL="../VIs/tcs_acceptCommand_target.vi"/>
 	<Item Name="tcs_acceptCommand_wfpCalculate.vi" Type="VI" URL="../VIs/tcs_acceptCommand_wfpCalculate.vi"/>
 	<Item Name="tcs_acceptCommand_wfpSimulate.vi" Type="VI" URL="../VIs/tcs_acceptCommand_wfpSimulate.vi"/>
@@ -81,6 +83,7 @@
 	<Item Name="tcs_ackCommand_standby.vi" Type="VI" URL="../VIs/tcs_ackCommand_standby.vi"/>
 	<Item Name="tcs_ackCommand_start.vi" Type="VI" URL="../VIs/tcs_ackCommand_start.vi"/>
 	<Item Name="tcs_ackCommand_stop.vi" Type="VI" URL="../VIs/tcs_ackCommand_stop.vi"/>
+	<Item Name="tcs_ackCommand_stopMotion.vi" Type="VI" URL="../VIs/tcs_ackCommand_stopMotion.vi"/>
 	<Item Name="tcs_ackCommand_target.vi" Type="VI" URL="../VIs/tcs_ackCommand_target.vi"/>
 	<Item Name="tcs_ackCommand_wfpCalculate.vi" Type="VI" URL="../VIs/tcs_ackCommand_wfpCalculate.vi"/>
 	<Item Name="tcs_ackCommand_wfpSimulate.vi" Type="VI" URL="../VIs/tcs_ackCommand_wfpSimulate.vi"/>
@@ -110,6 +113,8 @@
 	<Item Name="tcs_cancelCallback_command_start.vi" Type="VI" URL="../VIs/tcs_cancelCallback_command_start.vi"/>
 	<Item Name="tcs_cancelCallback_command_startackcmd.vi" Type="VI" URL="../VIs/tcs_cancelCallback_command_startackcmd.vi"/>
 	<Item Name="tcs_cancelCallback_command_stop.vi" Type="VI" URL="../VIs/tcs_cancelCallback_command_stop.vi"/>
+	<Item Name="tcs_cancelCallback_command_stopMotion.vi" Type="VI" URL="../VIs/tcs_cancelCallback_command_stopMotion.vi"/>
+	<Item Name="tcs_cancelCallback_command_stopMotionackcmd.vi" Type="VI" URL="../VIs/tcs_cancelCallback_command_stopMotionackcmd.vi"/>
 	<Item Name="tcs_cancelCallback_command_stopackcmd.vi" Type="VI" URL="../VIs/tcs_cancelCallback_command_stopackcmd.vi"/>
 	<Item Name="tcs_cancelCallback_command_target.vi" Type="VI" URL="../VIs/tcs_cancelCallback_command_target.vi"/>
 	<Item Name="tcs_cancelCallback_command_targetackcmd.vi" Type="VI" URL="../VIs/tcs_cancelCallback_command_targetackcmd.vi"/>
@@ -186,6 +191,7 @@
 	<Item Name="tcs_getResponse_standby.vi" Type="VI" URL="../VIs/tcs_getResponse_standby.vi"/>
 	<Item Name="tcs_getResponse_start.vi" Type="VI" URL="../VIs/tcs_getResponse_start.vi"/>
 	<Item Name="tcs_getResponse_stop.vi" Type="VI" URL="../VIs/tcs_getResponse_stop.vi"/>
+	<Item Name="tcs_getResponse_stopMotion.vi" Type="VI" URL="../VIs/tcs_getResponse_stopMotion.vi"/>
 	<Item Name="tcs_getResponse_target.vi" Type="VI" URL="../VIs/tcs_getResponse_target.vi"/>
 	<Item Name="tcs_getResponse_wfpCalculate.vi" Type="VI" URL="../VIs/tcs_getResponse_wfpCalculate.vi"/>
 	<Item Name="tcs_getResponse_wfpSimulate.vi" Type="VI" URL="../VIs/tcs_getResponse_wfpSimulate.vi"/>
@@ -215,6 +221,7 @@
 	<Item Name="tcs_issueCommand_standby.vi" Type="VI" URL="../VIs/tcs_issueCommand_standby.vi"/>
 	<Item Name="tcs_issueCommand_start.vi" Type="VI" URL="../VIs/tcs_issueCommand_start.vi"/>
 	<Item Name="tcs_issueCommand_stop.vi" Type="VI" URL="../VIs/tcs_issueCommand_stop.vi"/>
+	<Item Name="tcs_issueCommand_stopMotion.vi" Type="VI" URL="../VIs/tcs_issueCommand_stopMotion.vi"/>
 	<Item Name="tcs_issueCommand_target.vi" Type="VI" URL="../VIs/tcs_issueCommand_target.vi"/>
 	<Item Name="tcs_issueCommand_wfpCalculate.vi" Type="VI" URL="../VIs/tcs_issueCommand_wfpCalculate.vi"/>
 	<Item Name="tcs_issueCommand_wfpSimulate.vi" Type="VI" URL="../VIs/tcs_issueCommand_wfpSimulate.vi"/>
@@ -275,6 +282,8 @@
 	<Item Name="tcs_registerCallback_command_start.vi" Type="VI" URL="../VIs/tcs_registerCallback_command_start.vi"/>
 	<Item Name="tcs_registerCallback_command_startackcmd.vi" Type="VI" URL="../VIs/tcs_registerCallback_command_startackcmd.vi"/>
 	<Item Name="tcs_registerCallback_command_stop.vi" Type="VI" URL="../VIs/tcs_registerCallback_command_stop.vi"/>
+	<Item Name="tcs_registerCallback_command_stopMotion.vi" Type="VI" URL="../VIs/tcs_registerCallback_command_stopMotion.vi"/>
+	<Item Name="tcs_registerCallback_command_stopMotionackcmd.vi" Type="VI" URL="../VIs/tcs_registerCallback_command_stopMotionackcmd.vi"/>
 	<Item Name="tcs_registerCallback_command_stopackcmd.vi" Type="VI" URL="../VIs/tcs_registerCallback_command_stopackcmd.vi"/>
 	<Item Name="tcs_registerCallback_command_target.vi" Type="VI" URL="../VIs/tcs_registerCallback_command_target.vi"/>
 	<Item Name="tcs_registerCallback_command_targetackcmd.vi" Type="VI" URL="../VIs/tcs_registerCallback_command_targetackcmd.vi"/>
@@ -334,6 +343,7 @@
 	<Item Name="tcs_salProcessor_standby.vi" Type="VI" URL="../VIs/tcs_salProcessor_standby.vi"/>
 	<Item Name="tcs_salProcessor_start.vi" Type="VI" URL="../VIs/tcs_salProcessor_start.vi"/>
 	<Item Name="tcs_salProcessor_stop.vi" Type="VI" URL="../VIs/tcs_salProcessor_stop.vi"/>
+	<Item Name="tcs_salProcessor_stopMotion.vi" Type="VI" URL="../VIs/tcs_salProcessor_stopMotion.vi"/>
 	<Item Name="tcs_salProcessor_target.vi" Type="VI" URL="../VIs/tcs_salProcessor_target.vi"/>
 	<Item Name="tcs_salProcessor_wfpCalculate.vi" Type="VI" URL="../VIs/tcs_salProcessor_wfpCalculate.vi"/>
 	<Item Name="tcs_salProcessor_wfpSimulate.vi" Type="VI" URL="../VIs/tcs_salProcessor_wfpSimulate.vi"/>
@@ -363,6 +373,7 @@
 	<Item Name="tcs_waitForCompletion_standby.vi" Type="VI" URL="../VIs/tcs_waitForCompletion_standby.vi"/>
 	<Item Name="tcs_waitForCompletion_start.vi" Type="VI" URL="../VIs/tcs_waitForCompletion_start.vi"/>
 	<Item Name="tcs_waitForCompletion_stop.vi" Type="VI" URL="../VIs/tcs_waitForCompletion_stop.vi"/>
+	<Item Name="tcs_waitForCompletion_stopMotion.vi" Type="VI" URL="../VIs/tcs_waitForCompletion_stopMotion.vi"/>
 	<Item Name="tcs_waitForCompletion_target.vi" Type="VI" URL="../VIs/tcs_waitForCompletion_target.vi"/>
 	<Item Name="tcs_waitForCompletion_wfpCalculate.vi" Type="VI" URL="../VIs/tcs_waitForCompletion_wfpCalculate.vi"/>
 	<Item Name="tcs_waitForCompletion_wfpSimulate.vi" Type="VI" URL="../VIs/tcs_waitForCompletion_wfpSimulate.vi"/>
