@@ -378,5 +378,20 @@
 	<Item Name="tcs_waitForCompletion_wfpCalculate.vi" Type="VI" URL="../VIs/tcs_waitForCompletion_wfpCalculate.vi"/>
 	<Item Name="tcs_waitForCompletion_wfpSimulate.vi" Type="VI" URL="../VIs/tcs_waitForCompletion_wfpSimulate.vi"/>
 	<Item Name="tcsgetCurrentTime.vi" Type="VI" URL="../VIs/tcsgetCurrentTime.vi"/>
+	<Item Name="tcsshmflushSamplesEventAppliedSettingsMatchStart.vi" Type="VI" URL="../VIs/tcsshmflushSamplesEventAppliedSettingsMatchStart.vi"/>
+	<Item Name="tcsshmflushSamplesEventDetailedState.vi" Type="VI" URL="../VIs/tcsshmflushSamplesEventDetailedState.vi"/>
+	<Item Name="tcsshmflushSamplesEventErrorCode.vi" Type="VI" URL="../VIs/tcsshmflushSamplesEventErrorCode.vi"/>
+	<Item Name="tcsshmflushSamplesEventFilterChangeInPosition.vi" Type="VI" URL="../VIs/tcsshmflushSamplesEventFilterChangeInPosition.vi"/>
+	<Item Name="tcsshmflushSamplesEventHeartbeat.vi" Type="VI" URL="../VIs/tcsshmflushSamplesEventHeartbeat.vi"/>
+	<Item Name="tcsshmflushSamplesEventHeartbeatIn.vi" Type="VI" URL="../VIs/tcsshmflushSamplesEventHeartbeatIn.vi"/>
+	<Item Name="tcsshmflushSamplesEventInternalCommand.vi" Type="VI" URL="../VIs/tcsshmflushSamplesEventInternalCommand.vi"/>
+	<Item Name="tcsshmflushSamplesEventLoopTimeOutOfRange.vi" Type="VI" URL="../VIs/tcsshmflushSamplesEventLoopTimeOutOfRange.vi"/>
+	<Item Name="tcsshmflushSamplesEventRejectedCommand.vi" Type="VI" URL="../VIs/tcsshmflushSamplesEventRejectedCommand.vi"/>
+	<Item Name="tcsshmflushSamplesEventSettingVersions.vi" Type="VI" URL="../VIs/tcsshmflushSamplesEventSettingVersions.vi"/>
+	<Item Name="tcsshmflushSamplesEventSettingsApplied.vi" Type="VI" URL="../VIs/tcsshmflushSamplesEventSettingsApplied.vi"/>
+	<Item Name="tcsshmflushSamplesEventSummaryState.vi" Type="VI" URL="../VIs/tcsshmflushSamplesEventSummaryState.vi"/>
+	<Item Name="tcsshmflushSamplesEventTargetInPosition.vi" Type="VI" URL="../VIs/tcsshmflushSamplesEventTargetInPosition.vi"/>
+	<Item Name="tcsshmflushSamplesEventwfpDataReady.vi" Type="VI" URL="../VIs/tcsshmflushSamplesEventwfpDataReady.vi"/>
+	<Item Name="tcsshmflushSamplesEventzemaxError.vi" Type="VI" URL="../VIs/tcsshmflushSamplesEventzemaxError.vi"/>
 	<Item Name="tcsshminitFlags.vi" Type="VI" URL="../VIs/tcsshminitFlags.vi"/>
 </Library>
