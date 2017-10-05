@@ -3,6 +3,7 @@
 	<Property Name="NI.Lib.Icon" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!-R!!!*Q(C=\:4";BN8&amp;)&lt;`F%+\^2M5I3@I?9!O9OA4W-N#%TA0-)*[6U6E9;X3&lt;=_GA4(;7!_AB2&amp;&gt;"M3F'&lt;TX)^2U*T!T&gt;&lt;^\&gt;;WE#TO'JJ"&amp;\OBIZP\`/?&gt;_OD-;K9SPJ3^V_[&amp;"YKTPN^*QL/V-*8L%'S4V_/0DGT&amp;D/ZO.*\.RC:PD]&lt;D0WG8WV^W+M?'UXKRWM&lt;N=N=6@&lt;19S/D,O`$*ZZV/]71^&gt;N^H\GVX0P&lt;`?Z0RO\[_\^XQGX;IL87ZJ1KR8Q`J@^@?-YD=N^7&gt;N/ZSV:W`&lt;%FX&lt;NG^2OT]@`PV.];&gt;^QVB-_G;[&lt;%JQ/?(5N(^FPVE-1^0UT7*[ZT=$E_S8_FS]H!R^P^T\C_H1P/^0FTG`X`O4PH`H4XNG?&lt;Z=U#4(N"GGR&lt;_M^@?-"XW[&gt;P_F`L0`/(`&lt;XD`QNZ=0D=@]P6^]-/F`(N)4Z2=2E9AAH$"F[T;B*`3%HN!4?E)0^%!0^%!0^%"X&gt;%&gt;X&gt;%&gt;X&gt;%=X&gt;%-X&gt;%-X&gt;%-P"\L1B3ZU&gt;C7R?'+B2..%AU1S+%J]*8A30!G?"!^4*8A30!G?"%_#BR1F?")]#:Y%4Y+(-C6Y%DQ*HA20AI&gt;7B336!RW?"!`N&amp;@!%0!&amp;0Q"0QM+1#HA!A7#RI($1"1Y%:8!1]!5`!Q[5#HI!HY!FY!BZM"4Q"4]!4]!1]F*2&gt;C5+4$X2Y;#/(R_&amp;R?"Q?BY@7=HA=(I@(Y8&amp;Y7%Y/D]0D1$A,/MV"E&amp;0E*$A4B]@BY33(R_&amp;R?"Q?BQ?LX#%P/Z.J]I%/D]&amp;D]"A]"I`"1QM:0!;0Q70Q'$SUF=&amp;D]"A]"I`"QV)S?!Q?A]=!-2:F?2H.D%)DS2!-(D\F;&lt;&amp;SF[+17$GE_P#K0J3K$ZPK1[4[=+D?&gt;.7&lt;K8K46$&gt;@&gt;6.6.UNV%V2`H#KU+ITK)KL&amp;/6(8@&amp;]2&amp;]1Z-3&gt;/C#0CE"A2"\HU)S&gt;?8V`L[OJ+&amp;R=8/D]`VXQ_V]H*C9[/DH2Y?+D2;+3$AQ0&gt;D7]Y&gt;O0*X8PJV7D]&gt;0\N_/GP0`G&lt;6T]]?`0S\_?H,`^Y@PL&lt;,]0J#_GLV_15``D:^]8`/@M`\HXCOXJ_6/2_P_`@3Z`#OV&amp;@;(@?\^%`CBTXSQ!!!!!</Property>
 	<Property Name="NI.Lib.SourceVersion" Type="Int">369131520</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
+	<Property Name="NI.SortType" Type="Int">3</Property>
 	<Item Name="DataTypes" Type="Folder">
 		<Item Name="AOCS.ctl" Type="VI" URL="../DataTypes/AOCS.ctl"/>
 		<Item Name="LoopTime_ms.ctl" Type="VI" URL="../DataTypes/LoopTime_ms.ctl"/>
@@ -330,6 +331,7 @@
 	<Item Name="tcs_salEvent_SettingVersions.vi" Type="VI" URL="../VIs/tcs_salEvent_SettingVersions.vi"/>
 	<Item Name="tcs_salEvent_SettingsApplied.vi" Type="VI" URL="../VIs/tcs_salEvent_SettingsApplied.vi"/>
 	<Item Name="tcs_salEvent_SummaryState.vi" Type="VI" URL="../VIs/tcs_salEvent_SummaryState.vi"/>
+	<Item Name="tcs_salProcessor_stop.vi" Type="VI" URL="../VIs/tcs_salProcessor_stop.vi"/>
 	<Item Name="tcs_salEvent_TargetInPosition.vi" Type="VI" URL="../VIs/tcs_salEvent_TargetInPosition.vi"/>
 	<Item Name="tcs_salEvent_wfpDataReady.vi" Type="VI" URL="../VIs/tcs_salEvent_wfpDataReady.vi"/>
 	<Item Name="tcs_salEvent_zemaxError.vi" Type="VI" URL="../VIs/tcs_salEvent_zemaxError.vi"/>
@@ -342,7 +344,6 @@
 	<Item Name="tcs_salProcessor_filterChangeRequest.vi" Type="VI" URL="../VIs/tcs_salProcessor_filterChangeRequest.vi"/>
 	<Item Name="tcs_salProcessor_standby.vi" Type="VI" URL="../VIs/tcs_salProcessor_standby.vi"/>
 	<Item Name="tcs_salProcessor_start.vi" Type="VI" URL="../VIs/tcs_salProcessor_start.vi"/>
-	<Item Name="tcs_salProcessor_stop.vi" Type="VI" URL="../VIs/tcs_salProcessor_stop.vi"/>
 	<Item Name="tcs_salProcessor_stopMotion.vi" Type="VI" URL="../VIs/tcs_salProcessor_stopMotion.vi"/>
 	<Item Name="tcs_salProcessor_target.vi" Type="VI" URL="../VIs/tcs_salProcessor_target.vi"/>
 	<Item Name="tcs_salProcessor_wfpCalculate.vi" Type="VI" URL="../VIs/tcs_salProcessor_wfpCalculate.vi"/>
@@ -394,4 +395,5 @@
 	<Item Name="tcsshmflushSamplesEventwfpDataReady.vi" Type="VI" URL="../VIs/tcsshmflushSamplesEventwfpDataReady.vi"/>
 	<Item Name="tcsshmflushSamplesEventzemaxError.vi" Type="VI" URL="../VIs/tcsshmflushSamplesEventzemaxError.vi"/>
 	<Item Name="tcsshminitFlags.vi" Type="VI" URL="../VIs/tcsshminitFlags.vi"/>
+	<Item Name="tcsshmsalCommandinitAll.vi" Type="VI" URL="../VIs/tcsshmsalCommandinitAll.vi"/>
 </Library>
